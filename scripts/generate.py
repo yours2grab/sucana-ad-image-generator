@@ -24,12 +24,14 @@ ASPECT_RATIO_MAP = {
     "1:1": "1:1",
     "4:5": "3:4",
     "9:16": "9:16",
+    "1.91:1": "16:9",
 }
 
-# 3 formats only. No landscape. No 1200x1200.
-# Story:  1080x1920 (9:16) — master
-# Square: 1080x1080 (1:1)
-# Feed:   1080x1350 (4:5)
+# 4 formats. All cropped from the 9:16 master.
+# Story:     1080x1920 (9:16) — master
+# Square:    1080x1080 (1:1)
+# Feed:      1080x1350 (4:5)
+# Landscape: 1200x628  (1.91:1)
 
 def get_aspect_ratio(resolution_string):
     # Check longer keys first to avoid substring false matches (e.g. "1:1" matching "1.91:1")
@@ -143,9 +145,14 @@ def apply_text_overlay(image_path, text_overlay):
     txt_layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(txt_layer)
 
-    # Adapt text layout to aspect ratio (no landscape)
+    # Adapt text layout to aspect ratio
     aspect = w / h
-    if aspect > 0.9:
+    if aspect > 1.5:
+        # Landscape: wide, shorter text
+        max_chars = 20
+        target_line_w = int(w * 0.50)
+        base_font_pct = 0.10
+    elif aspect > 0.9:
         # Square: moderate stack
         max_chars = 15
         target_line_w = int(w * 0.55)

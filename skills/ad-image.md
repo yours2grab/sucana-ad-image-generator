@@ -66,7 +66,8 @@ Show ALL frameworks as a numbered list. User picks a number and we move. No expl
 > 7. Before/After — contrast moment, the pain state before the solution
 > 8. Social Proof — person with numbers, reviews, or screenshots overlaid
 > 9. Greenscreen — person in foreground, relevant context as background
-> 10. Founder — founder/authority portrait with a direct message"
+> 10. Founder — founder/authority portrait with a direct message
+> 11. Data vs Reality — person centered, contrasting stats on left vs right (what the platform said vs what actually happened)"
 
 Wait for their number.
 
@@ -82,69 +83,104 @@ This gives the user a preview before any image is generated. Then move straight 
 
 **ONE image. ONE API call. All formats come from this single master.**
 
+**HARD RULE: ALWAYS use Nano Banana MCP for image generation. NEVER use generate.py for generation. NEVER use Gemini Flash. generate.py is ONLY for local cropping (--resize) and text overlay (--text-only).**
+
 Build 1 JSON prompt at **9:16 (1080x1920)** — the tallest format. This is the master image. All other sizes will be cropped from it. Read `skills/nano_banana_image.md` for the full schema.
 
-**Claude picks the subject** — gender, ethnicity, age, clothing. Vary each time.
+**HARD RULE: ALL questions to the user must be numbered options (1, 2, 3, etc.). Never ask open-ended questions. The user types a number and we move.**
+
+**Step 6-pre — Subject Selection (5 options, user picks):**
+
+Before generating anything, present EXACTLY 5 subject options. Each option must be a different person — vary gender, ethnicity, age, and setting. Write each as a short one-liner describing who they are and what they're doing.
+
+Example format:
+> "Who's in the shot?
+> 1. Woman, late 20s, Black, messy bun, staring at laptop in a dark bedroom
+> 2. Man, mid 40s, white, reading glasses pushed up on forehead, kitchen table at midnight
+> 3. Woman, early 30s, East Asian, oversized hoodie, slumped in an office chair
+> 4. Man, late 20s, Latino, backwards cap, rubbing his eyes at a standing desk
+> 5. Non-binary, mid 30s, South Asian, headphones around neck, two monitors glowing"
+
+Always vary across gender, ethnicity, age, and environment. Never repeat the same type twice. Wait for the user to pick a number.
 
 **Composition rule for master:** The key subject (face, hands, main object) MUST be centered in the middle third of the frame vertically. This ensures every crop (square, landscape, feed) keeps the subject visible.
 
-Generate 1 master image:
+**Step 6a — Generate master via Nano Banana MCP:**
+
+1. Save the JSON prompt to `prompts/[subdirectory]/YYYY-MM-DD_style-type_hook-slug_1080x1920.json`
+2. Build the full text prompt from the JSON (same format as build_prompt in generate.py)
+3. Call `mcp__plugin_creative_nano-banana__generate_image` with:
+   - `prompt`: the full text prompt
+   - `aspectRatio`: "9:16"
+4. Copy the generated image from Nano Banana's output path to the correct location:
+   ```bash
+   cp "[nano-banana-output-path]" "/Users/virgilbrewster/My Drive/Sucana/Sucana/Sucana Agents/Ad Image Generator/images/[subdirectory]/YYYY-MM-DD_style-type_hook-slug_1080x1920.png"
+   ```
+
+**Step 6b — Crop to 1:1 preview (local, no API):**
 ```bash
 cd "/Users/virgilbrewster/My Drive/Sucana/Sucana/Sucana Agents/Ad Image Generator"
-python3 scripts/generate.py "prompts/[subdirectory]/YYYY-MM-DD_style-type_hook-slug_1080x1920.json" --count 1
-```
-
-Then crop the master to 1:1 (1080x1080) for preview using `--resize`:
-```bash
 python3 scripts/generate.py "prompts/[subdirectory]/YYYY-MM-DD_style-type_hook-slug_1080x1080.json" --resize "images/[subdirectory]/YYYY-MM-DD_style-type_hook-slug_1080x1920.png"
 ```
 
-Show the 1:1 preview to the user. Then ask:
-> "Like it or regenerate?"
+**Step 6c — Build review.html and open it immediately.** Do NOT just show the image in chat. Always build `images/review.html` with a dark background grid and open it with `open "images/review.html"` so the user sees it full-size in their browser.
+
+Then ask:
+> "1. Like it
+> 2. Regenerate"
 
 ### Step 7 — Image Approval
 
-- **Approved (like it)** — move to Step 8
-- **Rejected (regenerate)** — user says what to fix → update the 9:16 master JSON prompt → regenerate 1 master image → crop to 1:1 preview → show again → repeat until approved
+- **1 (like it)** — move to Step 8
+- **2 (regenerate)** — ask: "What do you want different?" Wait for answer → update the 9:16 master JSON prompt → regenerate 1 master image via Nano Banana MCP (NEVER generate.py) → copy to images/ → crop to 1:1 preview → build review.html → open → ask "1. Like it  2. Regenerate" again
 
 ### Step 8 — Crop Master to All 3 Sizes (clean, no text)
 
 **Do NOT call the API again.** Each API call produces a different image. All sizes come from the ONE approved 9:16 master.
 
-**3 formats only. No landscape. No 1200x1200.**
+**4 formats.**
 
-| Size | Ratio | Resolution |
-|------|-------|------------|
-| Story | 9:16 | 1080x1920 (master) |
-| Square | 1:1 | 1080x1080 |
-| Feed | 4:5 | 1080x1350 |
+| Size | Ratio | Resolution | Source |
+|------|-------|------------|--------|
+| Story | 9:16 | 1080x1920 | Master (generated via Nano Banana) |
+| Square | 1:1 | 1080x1080 | Crop from master |
+| Feed | 4:5 | 1080x1350 | Crop from master |
+| Landscape | 1.91:1 | 1200x628 | **Separate generation via Nano Banana at 16:9** |
 
-Build JSON prompts for the 2 additional sizes (only `ad_format.ratio_and_resolution` changes). Crop the master to each:
+**HARD RULE: Landscape is NEVER cropped from the 9:16 master. Portrait-to-landscape crop destroys quality. Landscape is ALWAYS generated separately via Nano Banana MCP at 16:9 aspect ratio using the same prompt adapted for landscape.**
+
+**Step 8a — Crop Square and Feed from master (local, no API):**
 ```bash
 cd "/Users/virgilbrewster/My Drive/Sucana/Sucana/Sucana Agents/Ad Image Generator"
 python3 scripts/generate.py "prompts/[sub]/YYYY-MM-DD_style_slug_1080x1080.json" --resize "images/[sub]/YYYY-MM-DD_style_slug_1080x1920.png"
 python3 scripts/generate.py "prompts/[sub]/YYYY-MM-DD_style_slug_1080x1350.json" --resize "images/[sub]/YYYY-MM-DD_style_slug_1080x1920.png"
 ```
 
-After ALL sizes created, build `images/review.html` — dark-background grid with all 3 clean images. Each clickable (opens full size in new tab). Open automatically with `open "images/review.html"`.
+**Step 8b — Generate Landscape separately via Nano Banana:**
+1. Build JSON prompt for 1200x628 (same subject/setting/mood, `ad_format.ratio_and_resolution` = "Landscape (1.91:1) 1200x628")
+2. Call `mcp__plugin_creative_nano-banana__generate_image` with `aspectRatio: "16:9"` and the full text prompt
+3. Copy the generated image to `images/[sub]/YYYY-MM-DD_style_slug_1200x628.png`
+
+After ALL 4 sizes ready, build `images/review.html` — dark-background grid with all 4 clean images. Each clickable (opens full size in new tab). Open automatically with `open "images/review.html"`.
 
 ### Step 9 — Text Question
 
-> "Want text on the image?"
+> "1. No text, deliver clean
+> 2. Add text"
 
-- **No** → skip to Step 11. Deliver the 3 clean formats.
-- **Yes** → ask: "What text? Paste the exact line."
+- **1** → skip to Step 11. Deliver the 3 clean formats.
+- **2** → ask: "Paste the exact text line."
   - Spell-check every word character by character
   - Flag any suspected typo: "Found possible spelling issue: [word]. Did you mean [correction]?"
   - Wait for confirmation
   - If user rewrites the text, use the new version
   - Move to Step 9b
 
-### Step 9b — Generate 6 Images (3 formats × 2 crop options)
+### Step 9b — Generate 8 Images (4 formats × 2 crop options)
 
 After text confirmed:
 
-1. **Back up** all 3 clean images to `images/[subdirectory]/clean/` (create dir if needed)
+1. **Back up** all 4 clean images to `images/[subdirectory]/clean/` (create dir if needed)
 
 2. **Create TWO versions per format** from the same master using `--resize` with `--bias`:
 
@@ -152,6 +188,7 @@ After text confirmed:
    ```bash
    python3 scripts/generate.py "prompts/[sub]/..._1080x1080.json" --resize "images/[sub]/..._1080x1920.png" --bias 0.30
    python3 scripts/generate.py "prompts/[sub]/..._1080x1350.json" --resize "images/[sub]/..._1080x1920.png" --bias 0.30
+   python3 scripts/generate.py "prompts/[sub]/..._1200x628.json" --resize "images/[sub]/..._1080x1920.png" --bias 0.30
    ```
    Copy the master 9:16 as-is (no crop needed for story).
    Save A versions with `_textA` suffix before the extension.
@@ -160,13 +197,14 @@ After text confirmed:
    ```bash
    python3 scripts/generate.py "prompts/[sub]/..._1080x1080.json" --resize "images/[sub]/..._1080x1920.png" --bias 0.50
    python3 scripts/generate.py "prompts/[sub]/..._1080x1350.json" --resize "images/[sub]/..._1080x1920.png" --bias 0.50
+   python3 scripts/generate.py "prompts/[sub]/..._1200x628.json" --resize "images/[sub]/..._1080x1920.png" --bias 0.50
    ```
    Copy the master 9:16 as-is.
    Save B versions with `_textB` suffix.
 
-3. **Apply bold text overlay** to all 6 images using `--text-only` (add `text_overlay` to JSON prompts first).
+3. **Apply bold text overlay** to all 8 images using `--text-only` (add `text_overlay` to JSON prompts first).
 
-4. **Build review.html** showing A and B side by side per format (6 images, 3 rows, 2 columns). Open automatically.
+4. **Build review.html** showing A and B side by side per format (8 images, 4 rows, 2 columns). Open automatically.
 
 **Crop bias reference:**
 | Format | Option A (text space) | Option B (text on face) |
@@ -174,21 +212,25 @@ After text confirmed:
 | 9:16 story | Full master (no crop) | Full master (no crop) |
 | 1:1 square | --bias 0.30 | --bias 0.50 |
 | 4:5 feed | --bias 0.30 | --bias 0.50 |
+| 1.91:1 landscape | --bias 0.30 | --bias 0.50 |
 
 ### Step 10 — User Picks A or B
 
-> "Which style, A or B?"
+> "1. Style A (text with space)
+> 2. Style B (text on face)
+> 3. Reject both, start over"
 
-User picks one. Delete the other set. Keep the chosen 3 images as the final text versions.
-
-If rejected entirely: ask what to fix, restore clean backups from `images/[subdirectory]/clean/`, adjust crop bias or text, regenerate the 6 options.
+- **1** — delete B set. Keep A as final text versions.
+- **2** — delete A set. Keep B as final text versions.
+- **3** — ask what to fix, restore clean backups from `images/[subdirectory]/clean/`, adjust crop bias or text, regenerate the 6 options.
 
 ### Step 10b — Text Variations
 
-> "Want different text on the same image?"
+> "1. Done with text
+> 2. Try different text on same image"
 
-- **No** → Step 11
-- **Yes** → user provides new text line:
+- **1** → Step 11
+- **2** → ask: "Paste the new text line." User provides new text:
   1. Restore clean images from `images/[subdirectory]/clean/`
   2. Re-crop with the CHOSEN style (A or B) bias values
   3. Apply new bold text overlay
@@ -199,9 +241,11 @@ If rejected entirely: ask what to fix, restore clean backups from `images/[subdi
 
 ### Step 11 — Final
 
-Ask: "Want to generate another concept or are we done?"
+> "1. Another concept
+> 2. Done"
 
-If another concept → go back to Step 4 (pick a style).
+- **1** → go back to Step 4 (pick a style).
+- **2** → wrap up.
 
 ## Aesthetic Rules per Style
 
@@ -217,10 +261,11 @@ If another concept → go back to Step 4 (pick a style).
 - `authenticity_level`: `editorial`
 
 ### 3. UGC Selfie
-- `aesthetic_style`: "Shot on iPhone front-facing camera held at arm's length. Slightly awkward angle — not centered, not level. Harsh available light — sunlight through a window, overhead fluorescent, whatever is there. Never beautiful, never controlled. Grainy sensor noise. No post-processing, no color grade. Natural white balance. Real environment clutter in background. Subject caught mid-expression, mid-word — not posed. Looks like a raw selfie video still from TikTok or Instagram Reels."
+- **ABSOLUTE HARD RULE — NO PHONE. EVER.** A phone must NEVER appear in a UGC Selfie image. Not in the person's hand. Not at the edge of frame. Not as a reflection. Not as a prop. NEVER. The selfie FEEL comes ONLY from imperfect framing: tilted 5-10 degrees off level, slightly off-center, angle slightly too high or too low, composition feels accidental. That's it. No phone. No arm holding a phone. No device of any kind. Just a person's face/upper body with imperfect framing that feels like "I took this myself." THE PHONE IS INVISIBLE BECAUSE IT IS THE CAMERA.
+- `aesthetic_style`: "Shot on iPhone front-facing camera. Frame tilted 5-10 degrees off level. Slightly off-center. Angle a little too high or too low. Composition feels accidental, like someone held a phone and snapped without thinking. Harsh available light — sunlight through a window, overhead fluorescent, whatever is there. Never beautiful, never controlled. Grainy sensor noise. No post-processing, no color grade. Natural white balance. Real environment clutter in background. Subject caught mid-expression, mid-word — not posed. Looks like a raw selfie video still from TikTok or Instagram Reels."
 - `authenticity_level`: `raw_ugc`
 - Lens: `50mm equivalent`, aperture: `f/8.0`, wide DOF
-- Negative prompt MUST include: `"8K"`, `"ultra realistic"`, `"professional photography"`, `"studio lighting"`, `"cinematic"`, `"CGI"`, `"rendered"`, `"smooth skin"`, `"airbrushed"`, `"perfect framing"`, `"centered composition"`, `"color graded"`, `"posed"`
+- Negative prompt MUST include: `"8K"`, `"ultra realistic"`, `"professional photography"`, `"studio lighting"`, `"cinematic"`, `"CGI"`, `"rendered"`, `"smooth skin"`, `"airbrushed"`, `"perfect framing"`, `"centered composition"`, `"color graded"`, `"posed"`, `"mirror selfie"`, `"phone"`, `"smartphone"`, `"mobile phone"`, `"cellphone"`, `"holding phone"`, `"phone in hand"`, `"phone screen"`, `"device"`, `"selfie arm"`, `"arm extended"`, `"hand holding device"`
 
 ### 4. POV
 - `aesthetic_style`: "Shot on iPhone rear camera, wide angle. Looking down at hands, keyboard, phone screen, or desk. First-person perspective — no face visible. Harsh available light, sensor noise, no color grade. Natural white balance. Real environment clutter. Looks like someone snapped a photo of what's in front of them."
@@ -260,6 +305,17 @@ If another concept → go back to Step 4 (pick a style).
 - 85mm, f/2.0
 - `authenticity_level`: `editorial`
 
+### 11. Data vs Reality (editorial)
+- `aesthetic_style`: "Person centered in frame, looking defeated/frustrated. Left side shows platform-reported stats (green arrows, big numbers). Right side shows reality stats (red arrows, small numbers). Split composition with person as the emotional anchor in the middle. Clean data visualization style, not cluttered. Dark or muted background so the stats pop. Feels like a dashboard exposé."
+- Person centered, contrasting data on left vs right
+- Left = what the platform/dashboard claimed (inflated numbers, green, up arrows)
+- Right = what actually happened (real numbers, red, down arrows)
+- Same editorial aesthetic as Hook Shot for the person
+- 80mm, f/2.8
+- `authenticity_level`: `editorial`
+- Text overlay on this style is the STATS, not a headline. Pillow applies the left/right stat layout after generation.
+- Negative prompt MUST include: `"text"`, `"words"`, `"letters"` (stats are added via Pillow post-processing, keep base image clean)
+
 ## Universal Rules — enforce on every single image
 
 PERSON
@@ -289,17 +345,21 @@ TYPOGRAPHY (text overlay path only)
 - Aspect-aware line wrapping: portrait max_chars=12, square max_chars=15
 
 FORMATS
-- **3 formats only. No landscape. No 1200x1200. No exceptions.**
-- Story 9:16 (1080x1920) = master
+- **4 formats.**
+- Story 9:16 (1080x1920) = master (Nano Banana)
 - Square 1:1 (1080x1080) = crop from master
 - Feed 4:5 (1080x1350) = crop from master
+- Landscape 1.91:1 (1200x628) = **separate generation via Nano Banana at 16:9** (NEVER crop from portrait master)
 
 IMAGE GENERATION
+- **ALWAYS use Nano Banana MCP (`mcp__plugin_creative_nano-banana__generate_image`) for ALL image generation. NEVER use generate.py for generation. NEVER use Gemini Flash or Imagen API directly.**
+- **generate.py is ONLY for local operations: cropping (--resize), text overlay (--text-only). These do NOT call any API.**
+- After Nano Banana generates an image, ALWAYS copy it from the Nano Banana output path to the correct `images/[subdirectory]/` location before proceeding
 - Images without text: add `"text"`, `"words"`, `"letters"`, `"writing"`, `"signage"` to negative prompt
 - Images with text: text is added by Pillow AFTER generation, so still add text-related terms to negative prompt to keep the base image clean
 
 FILE NAMING
-`YYYY-MM-DD_style-type_hook-slug_WxH.json` — take up to the first 4 words of the hook or idea, lowercase, hyphened, special characters stripped. Style-type mapping: hook-shot, testimonial, ugc-selfie, pov, text-wall, b-roll-text, before-after, social-proof, greenscreen, founder. Example: `2026-03-12_ugc-selfie_its-time-to-surrender_1080x1080.json`
+`YYYY-MM-DD_style-type_hook-slug_WxH.json` — take up to the first 4 words of the hook or idea, lowercase, hyphened, special characters stripped. Style-type mapping: hook-shot, testimonial, ugc-selfie, pov, text-wall, b-roll-text, before-after, social-proof, greenscreen, founder, data-vs-reality. Example: `2026-03-12_ugc-selfie_its-time-to-surrender_1080x1080.json`
 
 SUBDIRECTORIES
 - Hook Shot → `prompts/people/`
@@ -312,6 +372,7 @@ SUBDIRECTORIES
 - Social Proof → `prompts/people/`
 - Greenscreen → `prompts/people/`
 - Founder → `prompts/people/`
+- Data vs Reality → `prompts/people/`
 
 ERROR HANDLING
-If generate.py fails (safety filter, rate limit, API error): read the error output, adjust the prompt, save the updated JSON, and retry once. If it fails again, tell the user what went wrong and ask how to proceed.
+If Nano Banana MCP fails (safety filter, rate limit, API error): read the error output, adjust the prompt, save the updated JSON, and retry once. If it fails again, tell the user what went wrong and ask how to proceed. If generate.py fails on a local operation (--resize or --text-only), check the file paths and retry.
