@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "A man in his early 40s, tan skin, light stubble, wearing a loose linen shirt with rolled sleeves. Hair slightly wind-tousled. Relaxed posture, leaning back on a wooden bar stool with one arm resting on the counter. Bare feet visible below the stool. Micro expression: corners of mouth turned slightly upward, eyes half-closed in a content squint, the involuntary face of someone who just realized they have nothing to worry about.",
+    "action": "Sitting at a weathered teak beach bar, laptop closed in front of him, phone face-down on the bar showing a single notification glow through the screen. One hand loosely holding a coffee cup. Looking out toward the sunrise over calm water."
+  },
+  "setting": {
+    "location": "Open-air beach bar on a quiet tropical coast. Teak wood counter, simple bamboo roof overhead. Calm turquoise ocean in the background with a soft horizon line. No other people. A few palm fronds framing the edges. The bar is simple, not resort-luxurious.",
+    "time_of_day": "Early morning, just after sunrise. Golden amber light from the east casting long warm shadows across the bar surface."
+  },
+  "composition": {
+    "camera_angle": "Wide shot, eye-level, slightly to the left of center.",
+    "framing": "Rule of thirds. Subject positioned in the left third. Ocean and sunrise fill the right two-thirds. Headspace above. Feet visible at bottom with breathing room."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Natural golden hour sun from the east, warm amber light hitting the subject's face and arms. Soft fill from reflected ocean light.",
+    "color_grading": "Warm amber and golden tones, slight film grain, rich shadows."
+  },
+  "mood": "Peaceful relief. The feeling of a Monday morning where the work is already done. Quiet confidence without urgency.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}

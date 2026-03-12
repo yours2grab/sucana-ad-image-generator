@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "An avant-garde, high-fashion creative director wearing an impeccably tailored, minimalist black suit. Their expression is cold and unbothered.",
+        "action": "Standing next to a glowing, sleek modern 'autopilot' dashboard interface. They are casually wrapping thick, beautiful red velvet caution tape around the dashboard, rendering it completely useless."
+    },
+    "setting": {
+        "location": "A minimalist, high-end studio environment with a simple white pedestal.",
+        "time_of_day": "Studio lighting environment"
+    },
+    "composition": {
+        "camera_angle": "Eye-level, chest-up medium shot.",
+        "framing": "Rule of thirds. MUST follow cropping rules: never cut in flesh, leave clear headspace above the subject's hair, and do not cut off their hands as they wrap the tape."
+    },
+    "camera_settings": {
+        "lens": "80mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "Low depth of field, meaning the background is completely blurred."
+    },
+    "lighting": {
+        "type": "Dramatic studio lighting.",
+        "color_grading": "High contrast, deep elegant shadows, cinematic, high-end editorial."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: text, watermarks, deformities, bad anatomy, cartoon, illustration, low quality, cluttered background, cut flesh, badly cropped head."
+}

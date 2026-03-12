@@ -1,0 +1,46 @@
+{
+  "subject": {
+    "description": "South Asian male, early 30s, short dark hair, wearing a plain white t-shirt. Eyes mid-blink caught between closed and open — the exhaustion blink, not the alert blink. Chin slightly dropped toward chest. Shoulders rounded forward. Skin pores on forehead visible, slight five o'clock shadow. Photographically real — NOT illustrated or rendered.",
+    "action": "Sitting, head slightly bowed, one hand pressing two fingers against his temple — the specific physical gesture of someone processing that everything they believed was wrong."
+  },
+  "setting": {
+    "location": "Integrated into a bold graphic design composition. The person sits real and photographic within a designed layout. Behind and around him: two large bold vertical columns. LEFT COLUMN: massive geometric sans-serif header 'WHAT GOOGLE SAID' on deep green background — mock metric blocks showing 4.2x ROAS, 847 conversions, green upward arrows, clean authoritative official-looking numbers. RIGHT COLUMN: same bold type header 'WHAT ACTUALLY HAPPENED' on deep red-black background — starkly different numbers: 1.1x ROAS, 31 real conversions, a flat-line graph. The person's head and shoulders emerge from the bottom center of the layout, positioned between the two columns, looking down.",
+    "time_of_day": "N/A — graphic design composition with integrated photography"
+  },
+  "composition": {
+    "camera_angle": "Slightly high angle on the subject — subject feels small beneath the weight of the data above him",
+    "framing": "Close-up on subject. Crown with headspace. Cut at base of neck. Subject occupies lower third of the overall composition — the graphic design fills the upper two-thirds. This creates a visual hierarchy: data at top, human consequence at bottom."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Clean directional light on the subject from slightly above left — soft but real, not studio-flat. The graphic design elements are self-illuminated flat color.",
+    "color_grading": "Subject: cinematic teal-orange grade, warm protected skin tones, pores visible. Graphic design: LEFT column is corporate green, RIGHT column is deep near-black with red accent. High contrast between the photographic warmth of the human face and the flat graphic coldness of the data columns above."
+  },
+  "mood": "The weight of discovering you've been wrong — not explosive, but crushing and slow. The human face is the emotional anchor in a composition of cold data.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "Hybrid composition: photographically real human integrated into bold geometric graphic design. Human element shot on Sony A7, 80mm, f/2.8 — hyper-realistic skin texture, real pores, genuine exhausted expression. Surrounding graphic design is bold, high-contrast, typographically strong. The tension between real photography and flat design IS the visual concept.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Square (1:1) 1080x1080"
+  },
+  "negative_prompt": [
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "posed"
+  ]
+}

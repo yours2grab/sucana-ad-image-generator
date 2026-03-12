@@ -1,0 +1,65 @@
+{
+  "subject": {
+    "description": "Black male, early 30s, natural hair, slight stubble, wearing a plain grey zip-up hoodie (slightly unzipped). Real skin texture — visible pores, slight shine on forehead from room temperature, no makeup, no grooming. Expression: looking directly into the phone camera, one eyebrow slightly raised, the corners of the mouth pulled very slightly down — the 'I have to tell you what just happened' face. Not performing — this is genuinely what this face looks like when you're about to explain something absurd to someone.",
+    "action": "Holding the phone himself, recording a voice note or short video. Slight movement in the frame — the natural sway of someone holding their own phone and talking."
+  },
+  "setting": {
+    "location": "Standing in a small home office or spare bedroom converted to workspace — a door frame visible behind him, a shelf with random stuff on it (books, a cable, nothing curated). Overhead light. Completely ordinary.",
+    "time_of_day": "Midday — flat overhead room lighting, no natural light source doing anything interesting."
+  },
+  "composition": {
+    "camera_angle": "Slightly low — phone held at chest height, angled up at his face. Natural selfie-recording angle.",
+    "framing": "Medium close-up — head and upper chest. Top of head fully in frame with minimal headspace. Chin visible with breathing room."
+  },
+  "camera_settings": {
+    "lens": "50mm equivalent front-facing phone camera",
+    "aperture": "f/8.0",
+    "depth_of_field": "wide — room behind him mostly in focus",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Flat overhead room light — overhead LED or fluorescent. Slightly harsh on top of his head, slight shadow under his chin. Completely uncontrolled.",
+    "color_grading": "No color grading. Cool-neutral white balance. Looks exactly like an unedited iPhone video frame."
+  },
+  "mood": "That very specific pre-rant energy — he has something to say, it's been sitting in him, he picked up his phone to say it. Relatable disbelief, not theatrical anger.",
+  "authenticity_level": "raw_ugc",
+  "aesthetic_style": "Shot on iPhone front-facing camera held at chest level. Grainy sensor noise in the shadows. Slight compression artifacts. Natural phone white balance. Looks like a frame grabbed from a Loom recording or a voice memo video. No post-processing, no filters, no editing app.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "8K",
+    "ultra realistic",
+    "hyper realistic",
+    "professional photography",
+    "studio lighting",
+    "ring light",
+    "perfect lighting",
+    "cinematic",
+    "color graded",
+    "airbrushed skin",
+    "smooth skin",
+    "symmetrical",
+    "model",
+    "stock photo",
+    "headshot",
+    "CGI",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "rendered",
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "smile",
+    "posed",
+    "performative expression",
+    "curated background",
+    "clean room"
+  ]
+}

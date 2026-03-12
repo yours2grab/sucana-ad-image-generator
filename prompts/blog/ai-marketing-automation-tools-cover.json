@@ -1,0 +1,51 @@
+{
+  "subject": {
+    "description": "A single worn leather backpack sitting open on a rocky mountain ledge at dawn. Inside the pack: a brass compass, a metal water bottle, and a folded topographic map. The leather shows years of use, scuffed and softened. Below the ledge, slightly out of focus, a scattered pile of abandoned hiking gear, extra bags, gadgets, collapsed tent poles, carabiners, left behind by someone who learned to travel light.",
+    "action": "The backpack sits open and ready, catching the first light of dawn, three essentials visible inside."
+  },
+  "setting": {
+    "location": "A high mountain ledge overlooking a valley at dawn. Rocky granite surface with patches of moss. Distant peaks visible through light morning haze. The abandoned gear pile sits on a lower rock shelf below.",
+    "time_of_day": "Dawn, golden hour, first light breaking over distant peaks"
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly angled to show both the backpack contents and the abandoned gear below",
+    "framing": "Rule of thirds, backpack in the left two-thirds, dawn sky and valley visible in the right third, abandoned gear in the lower background"
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Golden hour dawn light from the right, warm light catching the leather and brass compass, cool blue sky above, soft shadows on the rock surface",
+    "color_grading": "Warm golden foreground transitioning to cool blue sky, cinematic contrast, rich natural tones"
+  },
+  "mood": "Quiet confidence and freedom, the relief of carrying only what matters after learning the hard way what to leave behind",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "people",
+    "humans",
+    "faces"
+  ]
+}

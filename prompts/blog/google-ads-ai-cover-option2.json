@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "Five identical white doors in a long minimalist corridor. Each door is painted a progressively deeper shade from light grey to deep violet purple. The fourth door from the left is cracked open with warm golden light spilling through the gap onto the polished concrete floor. A single figure, a man in his late 30s wearing a dark henley and jeans, stands in the corridor facing the open door, weight slightly forward.",
+    "action": "The man stands still, body angled toward the cracked-open door, one hand slightly raised as if about to push it open. His posture shows decision, not hesitation."
+  },
+  "setting": {
+    "location": "A long, clean minimalist corridor with smooth white walls and polished concrete floor. The five doors are evenly spaced along the left wall. The corridor extends into soft shadow behind the figure.",
+    "time_of_day": "Interior, no natural time cues. The corridor is lit by cool recessed ceiling lights. The warm glow from the cracked door contrasts sharply."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, medium-wide shot from behind and slightly to the right of the figure. All five doors visible in a receding line.",
+    "framing": "Wide shot. The corridor creates strong leading lines toward the open door. Figure placed in the right third. Doors recede along the left third. Plenty of headspace."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Cool recessed overhead lights in the corridor casting even, slightly clinical light. Warm golden light spilling from the cracked fourth door, creating a pool of warmth on the floor and wall.",
+    "color_grading": "Cool blue-grey corridor with a warm amber accent from the open door. High contrast between the two temperature zones."
+  },
+  "mood": "The clarity of choosing the right door when most people try all five. Precision over trial and error. Quiet confidence.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Architectural photography feel with cinematic color separation.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}

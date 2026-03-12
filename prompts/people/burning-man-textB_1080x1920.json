@@ -1,0 +1,53 @@
+{
+  "subject": {
+    "description": "Young woman, mid-20s, sun-kissed tan skin, high cheekbones. Wearing an elaborate Native American-inspired feathered headpiece with turquoise and gold beads woven through dark hair. Two thick neon pink war paint stripes under each eye, slightly smudged from sweat. Glitter dust on collarbones and shoulders. Festival jewelry \u2014 layered gold chains, chunky turquoise rings. Bare shoulders, loose white crochet top barely visible. Skin pores visible, fine dust settled in creases around eyes. Individual eyelashes visible. Sweat beads on upper lip.",
+    "action": "Looking directly into the camera with a half-smile \u2014 one corner of mouth pulled up, the other relaxed. Eyes slightly narrowed against the sun, pupils catching the golden light. Chin tilted down five degrees, looking up through lashes. Not posing \u2014 caught in the moment between thoughts, the look of someone who just locked eyes with a stranger across the playa."
+  },
+  "setting": {
+    "location": "Burning Man playa, Black Rock Desert. Vast flat white desert stretching to the horizon behind her. Distant art installations blurred in the heat haze \u2014 a giant metal sculpture catching the light. Other festival-goers as soft silhouettes in the far background. Fine white alkaline dust floating in the air, catching the light like tiny particles.",
+    "time_of_day": "Golden hour, around 6:30pm. Low sun from the left casting long warm shadows. Sky transitioning from blue to deep orange at the horizon."
+  },
+  "composition": {
+    "camera_angle": "Eye level, direct \u2014 intimate and confrontational. Camera slightly below eye line so she's looking slightly down at the viewer.",
+    "framing": "Small medium shot \u2014 crown of headpiece with generous headspace at top, down to below the chest. Subject centered vertically in the middle third of the frame. Feathered headpiece extends into the upper third. Playa environment fills the background. Key content (face) positioned in the center so all aspect ratio crops preserve the subject."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Golden hour sun from the left, warm and directional. Rim light catching the edges of the feathered headpiece and loose hair strands, creating a golden halo. Slight lens flare from the low sun. Shadow side of face filled by ambient light bouncing off the white playa dust. No artificial light.",
+    "color_grading": "Cinematic teal-orange grade \u2014 blue-pushed shadows in the background sky, warm protected skin tones. Deep orange highlights from the golden hour sun. Slightly desaturated midtones."
+  },
+  "mood": "Magnetic stillness \u2014 the quiet confidence of someone who has shed every layer of who they are in the real world and is standing in the desert as exactly themselves. Not performing freedom, just being it.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "Shot on Sony A7 with 80mm lens. Cinematic teal-orange color grade \u2014 blue-pushed shadows, warm protected skin tones. Real environment, real people softly blurred in background. Shallow depth of field. Skin pores visible, individual hair strands visible. Subject caught in a genuine moment \u2014 looks like a still from a prestige documentary or drama series.",
+  "ad_format": {
+    "platform": "Ad image",
+    "ratio_and_resolution": "Story (9:16) 1080x1920"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile"
+  ],
+  "text_overlay": {
+    "text": "IT'S TIME TO SURRENDER."
+  }
+}

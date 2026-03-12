@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "Two focused marketing team members in casual work attire.",
+        "action": "One person is pointing at a laptop screen with a look of disbelief, while the other is rubbing their temples in frustration over the generic AI ad copy."
+    },
+    "setting": {
+        "location": "A messy, lived-in office desk covered in unorganized papers and coffee cups.",
+        "time_of_day": "Afternoon"
+    },
+    "composition": {
+        "camera_angle": "Slightly low, wide candid angle.",
+        "framing": "Rule of thirds. MUST follow cropping rules: never cut in flesh, leave perfect headspace above both figures, full torsos visible."
+    },
+    "camera_settings": {
+        "lens": "35mm",
+        "aperture": "f/4.0",
+        "depth_of_field": "Medium depth of field, capturing the messy office environment clearly alongside the subjects."
+    },
+    "lighting": {
+        "type": "Standard, slightly harsh office fluorescent light.",
+        "color_grading": "Unedited, point-and-shoot camera flash style, raw documentary, zero cinematic color grading."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: aesthetic styling, cinematic lighting, watermarks, deformities, bad anatomy, perfect desk, ugly fonts, cartoon, illustration, cut off head, cut flesh, strange framing."
+}

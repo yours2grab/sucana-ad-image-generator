@@ -1,0 +1,62 @@
+{
+  "subject": {
+    "description": "White man, early 30s, slightly asymmetrical face, natural skin imperfections — mild redness on cheeks, faint forehead lines, visible pores, slight bags under eyes. Wearing a plain dark navy hoodie. Hair slightly disheveled, not styled. No makeup, no grooming. Looks like a real person, not a model.",
+    "action": "Holding the phone up to record himself. Looking directly into the front-facing camera lens with a flat, slightly exasperated expression — the face right before someone starts a rant. Not smiling. Not performing."
+  },
+  "setting": {
+    "location": "Inside a parked car. Headrest and window visible behind him. Grey fabric car interior. Midday light coming through the windshield — slightly harsh and unflattering.",
+    "time_of_day": "Midday — bright, slightly overexposed natural sunlight through car windows."
+  },
+  "composition": {
+    "camera_angle": "Slightly high angle — front-facing camera selfie perspective. Subject is holding the phone above eye level, looking up into it.",
+    "framing": "Medium close-up — head and shoulders. Top of head fully in frame with minimal headspace. Chin fully visible with breathing room. Slightly off-center as if handheld and unsteady."
+  },
+  "camera_settings": {
+    "lens": "50mm equivalent — front-facing phone camera",
+    "aperture": "f/8.0",
+    "depth_of_field": "wide — background car interior partially in focus",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Harsh natural sunlight through windshield — uncontrolled, slightly unflattering, creates minor shadows under nose and chin. No fill light whatsoever.",
+    "color_grading": "No color grading. Natural phone white balance — slightly cool, slight overexposure on forehead. Looks unedited straight from camera roll."
+  },
+  "mood": "Quietly fed up. The split second before someone says something they've been holding in. Relatable frustration, not theatrical anger.",
+  "authenticity_level": "raw_ugc",
+  "aesthetic_style": "Shot on iPhone front-facing camera. Grainy sensor noise visible. Slightly overexposed highlights. Compressed JPEG quality. No post-processing, no editing app filters. Looks like a raw video still from a TikTok or Instagram story.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "8K",
+    "ultra realistic",
+    "hyper realistic",
+    "professional photography",
+    "studio lighting",
+    "ring light",
+    "perfect lighting",
+    "cinematic",
+    "color graded",
+    "airbrushed skin",
+    "smooth skin",
+    "symmetrical face",
+    "model",
+    "stock photo",
+    "headshot",
+    "CGI",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "rendered",
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "smile",
+    "happy expression"
+  ]
+}

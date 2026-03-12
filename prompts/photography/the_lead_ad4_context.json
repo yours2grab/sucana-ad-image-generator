@@ -1,0 +1,56 @@
+{
+  "subject": {
+    "description": "White male, early 30s, dark circles under eyes, wearing a plain navy hoodie. Face partially lit by monitor glow — blue-white light on his face in an otherwise dim room. Expression is very specific: he's looking at the screen, not the camera. Eyes scanning. The face of someone reading numbers that don't make sense. Slight furrowing between the eyebrows. Mouth closed, jaw slightly tight. Real skin texture, no airbrushing.",
+    "action": "Sitting close to his monitor, face lit by the screen glow. One hand is on the mouse. He's scrolling through data — ad account, CRM, analytics — something that's telling him what was done to his campaigns. He's not reacting yet. He's still reading."
+  },
+  "setting": {
+    "location": "Home office, evening — room behind him is dark except for the monitor. A second monitor edge barely visible to the side showing a tanking performance graph. Coffee mug, phone face-down on the desk. Room is quiet.",
+    "time_of_day": "Evening — room dark, only monitor light illuminating the scene. Window behind him shows dark sky."
+  },
+  "composition": {
+    "camera_angle": "Slightly wide, 35mm perspective — we see him AND enough of the desk environment to feel the full context. He's slightly off-center to the left, monitor just outside right edge of frame.",
+    "framing": "Medium shot — head, shoulders, and upper torso. The desk environment is visible — coffee, phone, the faint glow of the screen. Full head with headspace. No flesh cuts."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium — subject sharp, background room soft but readable",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Monitor glow as primary light source — cool blue-white light casting from the right, catching his face and the left side of the desk. Room behind is dark. No other artificial light.",
+    "color_grading": "Cool and dim. Blue-teal cast from monitor. The only warmth is a faint orange from the coffee mug in the lower frame. Cinematic but realistic."
+  },
+  "mood": "The quiet of working late on a problem you didn't create. The specific exhaustion of accountability without control — cleaning up a mess that wasn't yours. Not dramatic. Just the reality of Tuesday evening at a small agency.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Documentary photography aesthetic — like a photo essay on remote workers. Real environment, real light, real person. The kind of image that could run in Wired or Fast Company.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "looking at camera",
+    "smile",
+    "posed expression",
+    "studio lighting",
+    "ring light",
+    "bright room",
+    "airbrushed skin",
+    "smooth skin",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "CGI",
+    "rendered",
+    "stock photo look",
+    "clean minimal desk",
+    "happy expression"
+  ]
+}

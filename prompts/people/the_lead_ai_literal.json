@@ -1,0 +1,29 @@
+{
+  "subject": {
+    "description": "A stressed, exhausted marketer in their early 30s.",
+    "action": "Staring intensely at a computer monitor. The monitor displays a chaotic, overly-generic AI-generated paragraph of text that looks completely unusable, representing 45 minutes of wasted effort."
+  },
+  "setting": {
+    "location": "A dimly lit modern office space.",
+    "time_of_day": "Late afternoon"
+  },
+  "composition": {
+    "camera_angle": "Over-the-shoulder shot, slightly angled to see both the frustrated face and the monitor.",
+    "framing": "Rule of thirds. MUST follow cropping rules: never cut in flesh, leave headspace (no cutting top of head), full shoulders visible, ample breathing room."
+  },
+  "camera_settings": {
+    "lens": "50mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "Low depth of field. The subject is in sharp focus while the background office is blurred."
+  },
+  "lighting": {
+    "type": "Harsh, cold light emanating from the computer monitor, contrasting with the dim ambient office light.",
+    "color_grading": "Cool tones, high contrast, slightly desaturated to emphasize exhaustion."
+  },
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Square (1:1) 1080x1080"
+  },
+  "negative_prompt": "Things that MUST NOT appear: text, watermarks, deformities, bad anatomy, artificial studio lighting, cut off heads, cut flesh."
+}

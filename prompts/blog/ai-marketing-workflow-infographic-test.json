@@ -1,0 +1,37 @@
+{
+  "subject": {
+    "description": "A real man in his 30s, dark clothing, leaning forward at the left edge of the frame, one hand raised mid-gesture as if presenting something. Slightly blurred — secondary to the graphic elements.",
+    "action": "Pointing toward the right side of the frame where bold graphic data elements float. Caught mid-explanation, not posed."
+  },
+  "setting": {
+    "location": "Abstract dark background — deep charcoal (#111827). No real environment. Pure graphic space.",
+    "time_of_day": "Timeless — no natural light, fully graphic."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, wide shot",
+    "framing": "Full medium shot. Human figure left third of frame. Right two-thirds filled with bold graphic elements: two large blocks — one labeled with an arrow pointing DOWN (showing reduction), one with bold large number typography. Strong geometric shapes divide the space."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Graphic studio light — clean, flat, no shadows. Pure product/design lighting.",
+    "color_grading": "Deep purple (#8b5cf6) and hot pink (#ec4899) color blocks on near-black background. High contrast. Bold."
+  },
+  "mood": "Confident clarity — the visual equivalent of someone who has figured something out and is showing you the proof.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "Bold graphic design infographic. Strong geometric color blocks in deep purple (#8b5cf6) and pink (#ec4899) on dark near-black background (#111827). Large bold sans-serif typography as primary design element. Arrow shapes and data bars rendered as graphic shapes. One real human figure integrated at left — slightly blurred, caught mid-gesture. High contrast, modern SaaS design aesthetic. Not a photo. Not a cartoon. A designed graphic with a real person.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (4:3) 1440x1080"
+  },
+  "negative_prompt": [
+    "watermarks", "logos", "childish", "CGI", "rendered",
+    "stock photo look", "airbrushed", "smooth skin",
+    "photorealistic photography", "nature", "outdoor",
+    "pastel", "soft colors", "low contrast"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "subject": {
+        "description": "A close-up shot of a stressed marketer's hands resting on a sleek modern desk next to an open laptop. The laptop screen is out of focus but shows colorful bar charts trending upwards prominently. Next to the laptop sits a smartphone screen showing a completely empty lead inbox or a 0 performance metric, in sharp focus.",
+        "action": "Hands resting motionless as if in disbelief or frustration."
+    },
+    "setting": {
+        "location": "A dimly lit, modern minimalist office space.",
+        "time_of_day": "Late evening"
+    },
+    "composition": {
+        "camera_angle": "High angle looking down at the desk.",
+        "framing": "Rule of thirds, drawing the eye from the out-of-focus positive charts to the sharp, negative reality on the phone.",
+        "lens_type": "50mm",
+        "depth_of_field": "Shallow depth of field"
+    },
+    "lighting": {
+        "type": "Cinematic",
+        "direction": "Side lit by the cool blue glow of the monitors and a warm ambient desk lamp.",
+        "color_grading": "High contrast, cool tones, slightly desaturated to evoke stress and the 'black box' mystery."
+    },
+    "aesthetic_style": "Documentary realism, corporate photography",
+    "aspect_ratio": "16:9",
+    "negative_prompt": "text, watermarks, bad anatomy, deformities, cluttered desk, extra fingers, cartoonish, 3d render"
+}

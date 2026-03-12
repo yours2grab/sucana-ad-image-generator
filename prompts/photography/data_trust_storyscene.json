@@ -1,0 +1,50 @@
+{
+  "subject": {
+    "description": "White male, mid-40s, close-cropped grey hair at temples, wearing a rumpled grey dress shirt with sleeves rolled to the elbows. Upper lip curled asymmetrically on one side — disbelief without surprise. Eyes narrowed slightly, focused hard on the screens in front of him. One hand gripping the edge of the console, knuckles slightly white. Individual stubble hairs visible on jaw, skin pores on nose visible.",
+    "action": "Standing at a glowing console, leaning slightly forward with both hands gripping the edge — staring at screens that say everything is fine, while physically braced as if he can feel the room shaking."
+  },
+  "setting": {
+    "location": "A massive underground bunker-style command center — concrete walls visibly cracking, water stains running down the back wall, a single ceiling tile hanging at an angle, dust motes visible in shafts of light. The console itself is sleek and modern: multiple screens glowing bright green showing campaign dashboards, ROAS numbers perfect, green upward arrows everywhere. One screen in the far corner sparking intermittently. A coffee cup tipped over on the desk in the background, liquid pooling slowly. Cables on the floor. One fluorescent light flickering overhead. Scattered printouts, a dead plant in the corner, a cracked phone screen face-up.",
+    "time_of_day": "No windows — underground, artificial light only"
+  },
+  "composition": {
+    "camera_angle": "Low angle, slightly below eye level — making the subject feel weighty and trapped within the space",
+    "framing": "Full medium shot. Crown with headspace at top frame, cut at hip at bottom. Subject positioned center-left. Green-glowing console screens fill the background behind and beside him. The crumbling wall and falling debris visible in the upper right background. Eyes land in upper third of frame."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Green screen glow from the dashboards as the primary light source — casting an eerie clinical green on his face and hands. Secondary: a single flickering fluorescent overhead. Dust and concrete particles visible in the air, catching the light. Spark from broken screen provides occasional warm flash in the background.",
+    "color_grading": "Cinematic teal-green dominant — the sickly green of data that says everything is fine. Blue-pushed shadows deep in the crumbling corners. Warm amber only in the dust particles and sparks. Skin tones slightly desaturated — the pallor of someone who hasn't seen daylight."
+  },
+  "mood": "The specific dissociation of a professional trained to trust instruments — the instruments say everything is fine — but something in the body knows the room is falling apart. Not panic. Controlled, professional dread. The stillness before the realization fully lands.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "Shot on Sony A7 with 35mm lens. Cinematic teal-green dominant color grade — green data glow versus crumbling physical reality. Real environmental details: cracked concrete, hanging cables, scattered papers, flickering light, dust in air. Medium depth of field — environment in focus alongside subject. Skin texture visible. Subject caught mid-realization, NOT posed. Looks like a still from a prestige thriller or drama series.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Square (1:1) 1080x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "posed",
+    "sci-fi",
+    "futuristic",
+    "clean walls"
+  ]
+}

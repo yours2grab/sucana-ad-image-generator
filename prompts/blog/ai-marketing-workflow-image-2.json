@@ -1,0 +1,37 @@
+{
+  "subject": {
+    "description": "Late-30s man, same stubble, but posture completely changed — leaning back in chair, shoulders loose, one arm hanging off armrest. Clean white t-shirt. Rested face.",
+    "action": "Reading output on a single clean laptop screen with left hand resting loosely on trackpad. Eyes scanning with a slight upward tilt — the posture of someone reviewing, not scrambling. Upper lip barely pulled back asymmetrically on one side — the involuntary start of approval before he's decided anything."
+  },
+  "setting": {
+    "location": "Clean minimal home office desk — one laptop, one notebook closed beside it, a fresh coffee. No clutter. Window light coming in from the left. Plants visible softly blurred in background.",
+    "time_of_day": "Morning — soft golden window light from the left."
+  },
+  "composition": {
+    "camera_angle": "Slight low angle — camera below eye-line looking slightly up, conveying calm authority",
+    "framing": "Small medium shot. Crown with headspace at top. Cut below nipples. Subject centered with slight right lean. Never cut in flesh."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft natural window light from the left, gentle fill from the right. No harsh shadows.",
+    "color_grading": "Cinematic teal-orange grade — warm amber morning tones, blue shadows preserved in corners. Skin tones protected and warm."
+  },
+  "mood": "Calm decisive focus — the specific stillness of someone who has stopped doing the work and started reviewing it instead.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "Shot on Sony A7 with 80mm lens. Cinematic teal-orange color grade — warm morning light, blue-pushed shadows. Real environment. Skin pores visible. Subject caught mid-review, NOT posed. Looks like a still from a prestige documentary or drama series.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (4:3) 1440x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "watermarks", "logos",
+    "cartoon", "illustration", "CGI", "rendered",
+    "stock photo look", "airbrushed", "smooth skin",
+    "posed", "cheesy smile", "studio lighting", "perfect framing"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "A weathered brass megaphone sitting upright on a wooden market stall table. Behind it, a blurred crowd of people walking past in a busy street market. One person in the mid-ground has stopped and turned back, looking directly toward the megaphone. The person is a woman in her 30s, dark hair, wearing a casual jacket, caught mid-turn with genuine curiosity on her face.",
+    "action": "The megaphone sits still. The woman is mid-turn, weight shifting on her back foot, head rotated toward the camera, eyes locked on something that caught her attention."
+  },
+  "setting": {
+    "location": "A busy outdoor European street market with canvas awnings, wooden stalls, and crowds moving in both directions. Warm-toned buildings in the far background.",
+    "time_of_day": "Golden hour, late afternoon sun cutting horizontally through the market."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly wide shot. Megaphone in the left third of the frame, the turning woman in the right third.",
+    "framing": "Wide shot. Rule of thirds. Megaphone anchors the left, turning woman anchors the right. Crowd fills the middle as blur. Plenty of headspace above the woman."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Golden hour natural sunlight cutting horizontally through the scene, casting long warm shadows across the cobblestones. Backlit crowd creates rim lighting on hair and shoulders.",
+    "color_grading": "Warm amber tones, cinematic teal shadows, protected warm skin tones on the turning woman."
+  },
+  "mood": "The electric moment of connection in a sea of noise. One message reaching the right person while everyone else walks past oblivious.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Cinematic color grade with warm amber highlights and cool teal shadows.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}

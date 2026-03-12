@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #000; overflow: hidden; }
+
+  .container {
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .hook-text {
+    position: absolute;
+    font-family: "Helvetica Neue", "Arial Black", "Helvetica", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    max-width: 65%;
+    padding: 60px;
+    word-wrap: break-word;
+  }
+
+  /* ── Font size tiers ── */
+  .size-xl .hook-text  { font-size: 88px; }
+  .size-lg .hook-text  { font-size: 72px; }
+  .size-md .hook-text  { font-size: 60px; }
+  .size-sm .hook-text  { font-size: 48px; }
+
+  /* ── Layout variants ── */
+  .layout-top-left .hook-text {
+    top: 0;
+    left: 0;
+  }
+
+  .layout-top-right .hook-text {
+    top: 0;
+    right: 0;
+    text-align: right;
+  }
+
+  .layout-center-top .hook-text {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .layout-bottom-left .hook-text {
+    bottom: 0;
+    left: 0;
+  }
+
+  /* ── Color themes ── */
+  .text-white .hook-text {
+    color: #ffffff;
+    text-shadow: 0 2px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  .text-dark .hook-text {
+    color: #1a1a1a;
+    text-shadow: 0 1px 20px rgba(255, 255, 255, 0.15);
+  }
+</style>
+</head>
+<body>
+<div class="container" id="container">
+  <div class="hook-text" id="hook"></div>
+</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+
+  const photo  = params.get('photo');
+  const hook   = params.get('hook') || '';
+  const layout = params.get('layout') || 'top-left';
+  const theme  = params.get('theme') || 'white';
+
+  const container = document.getElementById('container');
+  const hookEl    = document.getElementById('hook');
+
+  // Set photo background
+  if (photo) {
+    container.style.backgroundImage = `url("${photo}")`;
+  }
+
+  // Set hook text
+  hookEl.textContent = hook;
+
+  // Apply layout and theme classes
+  container.classList.add(`layout-${layout}`, `text-${theme}`);
+
+  // Auto-size based on hook length
+  const len = hook.length;
+  if (len <= 20)      container.classList.add('size-xl');
+  else if (len <= 40) container.classList.add('size-lg');
+  else if (len <= 65) container.classList.add('size-md');
+  else                container.classList.add('size-sm');
+</script>
+</body>
+</html>

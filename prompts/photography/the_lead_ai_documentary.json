@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "Two marketing team members in realistic, everyday office wear.",
+        "action": "One person is rubbing their temples with both hands in pure frustration. The other is pointing at a laptop screen, showing how an AI tool quietly cost more time than it saved."
+    },
+    "setting": {
+        "location": "A chaotic, realistic office desk filled with coffee cups and sticky notes.",
+        "time_of_day": "Mid-morning"
+    },
+    "composition": {
+        "camera_angle": "Wide, candid, unposed documentary angle.",
+        "framing": "Rule of thirds. MUST follow cropping rules: leave headspace above both figures, never cut in flesh, full upper bodies visible."
+    },
+    "camera_settings": {
+        "lens": "35mm",
+        "aperture": "f/4.0",
+        "depth_of_field": "Medium depth of field, keeping both subjects in focus while the messy desk adds context."
+    },
+    "lighting": {
+        "type": "Standard fluorescent office lighting combined with natural window light.",
+        "color_grading": "Unedited, documentary-style, zero cinematic grading, raw."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear: cinematic lighting, polished aesthetics, watermarks, deformities, bad anatomy, cut off head, cut flesh, over-the-top acting."
+}

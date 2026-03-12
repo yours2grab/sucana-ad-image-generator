@@ -1,0 +1,54 @@
+{
+  "subject": {
+    "description": "A single vivid green seedling, about 3 inches tall, with two small leaves. One perfect water droplet balanced on the tip of the larger leaf, catching golden light. The sprout is pushing through a deep crack in dry, sun-baked desert earth. The cracked soil has a pattern of hexagonal fissures radiating outward. The sprout is the only living thing in the frame.",
+    "action": "The seedling is stretching upward toward the light, leaves slightly unfurled, the water droplet trembling on the edge of the leaf as if about to fall."
+  },
+  "setting": {
+    "location": "Vast, flat desert landscape stretching to the horizon. Cracked dry earth in the foreground, golden sand dunes softly blurred in the far background. No buildings, no people, no other vegetation. Just earth and sky.",
+    "time_of_day": "Golden hour, sun low on the horizon behind the seedling, casting long warm shadows across the cracked earth."
+  },
+  "composition": {
+    "camera_angle": "Low angle, camera nearly at ground level, looking slightly up at the seedling against the golden sky.",
+    "framing": "Rule of thirds. Seedling positioned at left third intersection. Vast desert and sky fill the right two-thirds. Plenty of breathing room above and around the subject."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Golden hour backlight from behind the seedling, creating a luminous rim light on the leaves and water droplet. Warm amber light flooding across the cracked earth. The droplet acts as a tiny prism catching a spectrum of gold and white.",
+    "color_grading": "Warm amber and gold tones dominant, with the green of the seedling providing the only cool color contrast. Rich earth tones in the cracked soil. Sky transitioning from deep gold near the horizon to soft peach above."
+  },
+  "mood": "Quiet determination. The fragile persistence of something small and alive in a vast, indifferent landscape. Hope without sentimentality. The moment right before growth becomes unstoppable.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Macro-level detail on the water droplet and leaf veins. Individual grains of sand visible in the cracked earth. The image should feel like a National Geographic photograph.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "multiple plants",
+    "flowers",
+    "trees",
+    "people",
+    "buildings",
+    "artificial objects"
+  ]
+}

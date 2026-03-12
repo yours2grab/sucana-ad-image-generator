@@ -1,0 +1,36 @@
+{
+  "subject": {
+    "description": "A man in his early 50s, European, salt-and-pepper stubble, wearing a simple dark linen shirt with sleeves rolled to forearms. Skin pores visible, slight crow's feet around eyes. Relaxed posture, arms folded behind his head, leaning back in a wooden chair. Micro expression: corners of mouth barely lifted on one side, eyes half-closed with the contentment of someone who just solved a puzzle they spent months on. Chin slightly raised.",
+    "action": "Leaning back in his chair with arms folded behind his head, gazing at a laptop screen with quiet satisfaction."
+  },
+  "setting": {
+    "location": "A warm creative home office with a wall behind him covered in colorful sticky notes and hand-drawn workflow diagrams. A single laptop open on a worn wooden desk. A half-empty coffee cup beside it. Real lived-in space with books stacked messily.",
+    "time_of_day": "Late afternoon golden hour"
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly off-center to the right",
+    "framing": "Full medium shot. Top frame: crown with generous headspace. Bottom frame: hip level showing the chair and desk edge. Rule of thirds, subject positioned left third. Wall of sticky notes fills background."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Warm golden hour sunlight streaming through a large side window, casting long soft shadows across the desk. Natural bounce light filling the shadows gently.",
+    "color_grading": "Warm amber tones with soft contrast, slightly desaturated shadows"
+  },
+  "mood": "Quiet triumph. The relief of figuring something out after months of struggle.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered",
+    "stock photo look", "overly polished", "fake smile"
+  ]
+}

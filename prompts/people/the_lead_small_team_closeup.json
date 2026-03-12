@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "A very tired, authentic marketing manager under heavy budget pressure.",
+        "action": "Staring directly into the camera lens with a heavy sigh, reflecting the reality of running a small team with no enterprise budget."
+    },
+    "setting": {
+        "location": "A blurry, non-descript background.",
+        "time_of_day": "Late night"
+    },
+    "composition": {
+        "camera_angle": "Eye-level extreme close-up.",
+        "framing": "Centered close-up. MUST follow cropping rules: cut above eyebrows, always give the chin ample breathing room, no boxing the chin, never cut in flesh."
+    },
+    "camera_settings": {
+        "lens": "85mm",
+        "aperture": "f/1.8",
+        "depth_of_field": "Extremely low depth of field. Only the eyes and central facial expression are in sharp focus."
+    },
+    "lighting": {
+        "type": "Single dim light source, casting stark shadows on the face.",
+        "color_grading": "Dark, raw, authentic skin texture with visible fatigue and stress."
+    },
+    "aesthetic_style": "RAW photo, authentic unretouched photography, shot on 35mm film, hyper realistic photorealism, actual human beings. DO NOT MAKE IT A CARTOON OR DIGITAL ART.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear: text, watermarks, deformities, bad anatomy, smooth skin filters, cut off chins, weird framing, digital art, illustration, vector art, cartoon, 3D render, CGI."
+}

@@ -1,0 +1,47 @@
+{
+  "subject": {
+    "description": "Mid-30s white male standing in the lower center of the frame — small relative to the graphic elements towering above him. Business casual — light blue shirt, dark trousers. Real skin, visible pores, genuine expression of confused overwhelm as he looks upward. Hand shielding his eyes as if trying to make sense of the scale above him.",
+    "action": "Standing at the base of a massive rising data chart, looking up at it with one hand shielding his eyes, dwarfed and overwhelmed by its trajectory."
+  },
+  "setting": {
+    "location": "Abstract dark navy background. A massive upward-sloping line graph dominates the upper two-thirds of the frame — bold white line spiking sharply upward marked with years 2020 through 2025. Chrome robot silhouettes appear as small rising icons along the graph line. The man stands at the bottom center where the line begins, dwarfed by its scale.",
+    "time_of_day": "Timeless — graphic design environment, no natural light source"
+  },
+  "composition": {
+    "camera_angle": "Eye-level to the man, wide shot capturing the full graphic",
+    "framing": "Rule of thirds. Man occupies bottom-center third, graph dominates upper two-thirds. Full body visible with clear headspace. Graph line extends from his eye level diagonally up and to the right corner."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Man softly lit from front with cool key light. Graph elements self-illuminated in white and cyan on dark background. Slight glow on the graph line.",
+    "color_grading": "Dark navy base with high contrast white and cyan graphic elements. Man's skin tones kept warm to contrast the cold digital environment."
+  },
+  "mood": "Overwhelmed and insignificant — one human watching AI automation grow beyond comprehension",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "4K ultra realistic human integrated into bold graphic design infographic. The man is photographically real — pores, hairs, fabric texture — set against a clean designed data visualization background.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "CGI",
+    "rendered"
+  ]
+}

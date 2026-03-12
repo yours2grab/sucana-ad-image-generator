@@ -1,0 +1,56 @@
+{
+  "subject": {
+    "description": "A male surfer in board shorts, no wetsuit, no shirt. Tanned skin, athletic build, sun-kissed hair. Arms loose and relaxed, body balanced, crouched low on a surfboard. Completely calm, no tension in the shoulders. Water droplets on skin catching sunlight. Real surfer, not a model.",
+    "action": "Riding a massive wave that is made entirely of cascading green Matrix-style binary code, 1s and 0s streaming and flowing in the shape of a curling ocean wave. The binary digits glow neon green even in the bright sunlight, forming the wave's curl, spray, and foam. The surfer is in flow, not fighting the digital wave."
+  },
+  "setting": {
+    "location": "Open tropical ocean under bright blue skies. Crystal clear turquoise water beneath the surfboard transitions into streams of glowing green binary code that forms the wave. Bright sunny day with a few white clouds. The contrast between the sunny paradise and the Matrix code wave creates visual tension.",
+    "time_of_day": "Midday bright sun, blue skies, full tropical daylight."
+  },
+  "composition": {
+    "camera_angle": "Low angle from water level, looking up at the surfer on the wave. The wave towers above, filling the upper two-thirds of the frame with cascading green 1s and 0s against the blue sky.",
+    "framing": "Wide shot. Surfer positioned in the lower third, right of center. The massive code-wave curls overhead filling the frame. Plenty of headspace above the surfer. No cropping at joints."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Bright tropical sunlight from above and behind. The green binary code wave glows neon green even in the daylight, creating a striking contrast against the blue sky and turquoise water. Sun highlights on the surfer's bare skin and on the water spray.",
+    "color_grading": "Bright, saturated tropical colors. Vivid blue sky, turquoise ocean, neon green code wave. Warm golden sun tones on skin. High contrast between the natural sunny environment and the glowing digital wave. Not dark, not moody, bright and alive."
+  },
+  "mood": "Calm mastery in the face of overwhelming digital change. The wave is enormous and made of raw data, but the surfer is not afraid. Total flow state. Tropical freedom meets digital power. The feeling of someone who learned to ride the thing everyone else is drowning in.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. The binary code is rendered as luminous floating characters integrated into the physical wave shape, not overlaid as a filter. The water-to-code transition feels organic, not pasted. Bright daylight photography with vivid colors.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers on the image besides the binary code",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "stock photo",
+    "posed",
+    "fake",
+    "overly polished",
+    "wetsuit",
+    "dark sky",
+    "night",
+    "moody"
+  ]
+}

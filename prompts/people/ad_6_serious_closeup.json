@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "A dead-serious marketer in a casual crewneck sweater.",
+        "action": "Staring intensely directly into the camera lens with a look of absolute frustration."
+    },
+    "setting": {
+        "location": "A blurry, generic modern office background.",
+        "time_of_day": "Afternoon"
+    },
+    "composition": {
+        "camera_angle": "Eye-level close-up shot.",
+        "framing": "Centered tight portrait. MUST follow cropping rules: never cut in flesh, leave perfect clear headspace above the subject's hair, and give the chin ample breathing room."
+    },
+    "camera_settings": {
+        "lens": "80mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "Extremely low depth of field, meaning the background is completely indistinguishable blur."
+    },
+    "lighting": {
+        "type": "Natural, slightly moody window light hitting one side of the face.",
+        "color_grading": "Muted, high contrast, cinematic, un-staged."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: smiling, happy, fake stock photo vibe, text, watermarks, deformities, bad anatomy, cartoon, illustration, low quality, cut flesh, badly cropped head."
+}

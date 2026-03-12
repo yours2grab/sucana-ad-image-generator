@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "A small wooden fishing boat on perfectly still water at dawn. Five different fishing rods are mounted along the starboard side, each with a distinctly different lure: a bright orange spinner, a dark purple jig, a silver spoon, a green soft plastic, and a white feathered fly. The rods are set at slightly different angles, lines taut in the water. The boat is empty, no people.",
+    "action": "The boat sits still on glass-calm water. The fishing lines extend from the rods into the water at different angles, each targeting a different depth."
+  },
+  "setting": {
+    "location": "A calm lake or bay at dawn. Mountains or hills barely visible as silhouettes in the far background. Mist sitting low on the water surface. The sky is a gradient from deep purple at the top to soft pink and pale gold at the horizon.",
+    "time_of_day": "Pre-dawn, the moment just before sunrise. Purple and pink sky reflected perfectly in the still water."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly wide. The boat sits in the center-left of the frame. The five rods create a rhythmic pattern along the boat's edge. The reflection doubles the composition below.",
+    "framing": "Wide shot. Boat in the left-center third. Sky fills the upper half, water reflection fills the lower half. The horizon line sits at the center. Rods and lures are clearly visible and distinct from each other."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Pre-dawn ambient light. Soft diffused glow from the horizon. No direct sun yet. The sky provides all illumination, casting everything in cool purple and warm pink tones.",
+    "color_grading": "Purple and pink dominant palette. Cool shadows on the boat. Warm pink highlights on the water surface. The lures pop with their individual colors against the muted dawn palette."
+  },
+  "mood": "Patient strategy. Five different approaches set simultaneously, each designed for a different catch. The quiet confidence of someone who prepared before the sun came up.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Landscape photography with cinematic color palette matching Sucana brand purple and pink.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}

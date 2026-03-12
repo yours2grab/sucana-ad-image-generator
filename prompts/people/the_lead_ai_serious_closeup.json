@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "A drained marketing professional in a crumpled button-down shirt.",
+        "action": "Looking directly into the camera with heavy, tired eyes, completely burnt out from babysitting AI tools like a junior hire all day."
+    },
+    "setting": {
+        "location": "A blurred, nondescript office background.",
+        "time_of_day": "Afternoon"
+    },
+    "composition": {
+        "camera_angle": "Eye-level extreme close-up.",
+        "framing": "Centered close-up. MUST follow cropping rules: cut above eyebrows, always give the chin breathing room, no boxing the chin, never cut in flesh."
+    },
+    "camera_settings": {
+        "lens": "85mm",
+        "aperture": "f/1.8",
+        "depth_of_field": "Extremely low depth of field. Only the eyes and central facial features are in sharp focus."
+    },
+    "lighting": {
+        "type": "Soft, diffused natural light from a nearby window.",
+        "color_grading": "Raw, muted colors, authentic skin texture with visible fatigue."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear: text, watermarks, deformities, bad anatomy, smooth skin filters, cut off chins, weird framing."
+}

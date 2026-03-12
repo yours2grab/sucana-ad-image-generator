@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "Three marketing team members in simple office attire.",
+        "action": "Standing around a whiteboard, actively debating and crossing out 'what flopped completely'. One person is rubbing their chin in thought, another is pointing a marker at a failed test result."
+    },
+    "setting": {
+        "location": "A chaotic, realistic small-office meeting room with coffee cups and scattered notes.",
+        "time_of_day": "Mid-morning"
+    },
+    "composition": {
+        "camera_angle": "Wide, candid documentary angle, slightly low.",
+        "framing": "Rule of thirds. MUST follow cropping rules: leave headspace above all figures, never cut in flesh, full upper bodies visible against the whiteboard."
+    },
+    "camera_settings": {
+        "lens": "35mm",
+        "aperture": "f/4.0",
+        "depth_of_field": "Medium depth of field, keeping both the subjects and the scribbled whiteboard in focus."
+    },
+    "lighting": {
+        "type": "Standard fluorescent office lighting combined with harsh sunlight from a window.",
+        "color_grading": "Unedited, documentary-style, zero cinematic grading, raw."
+    },
+    "aesthetic_style": "RAW photo, authentic unretouched photography, shot on 35mm film, hyper realistic photorealism, actual human beings. DO NOT MAKE IT A CARTOON OR DIGITAL ART.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear: massive teams, more than three people, crowds, identical faces, enterprise logos, cinematic lighting, polished aesthetics, watermarks, deformities, bad anatomy, digital art, illustration, vector art, cartoon, 3D render, CGI."
+}

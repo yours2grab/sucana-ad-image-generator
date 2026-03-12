@@ -1,0 +1,63 @@
+{
+  "subject": {
+    "description": "Male, early 30s, South Asian, thin stubble, dark circles under eyes visible even in low light. Wearing a wrinkled button-down shirt with the top two buttons undone, sleeves half-rolled. Hair wet and stuck to forehead. Skin texture visible — pores, uneven tone, rain droplets clinging to skin. No makeup, no grooming. Looks like he came straight from work and kept walking.",
+    "action": "Standing still on a city sidewalk in the rain, phone held at arm's length for a selfie, not wiping the rain from his face. Eyes half-closed, heavy-lidded — the look of someone who stopped trying to keep them open. Mouth slightly open, lower lip slack — not speaking, not about to speak. Rain running down forehead and cheeks unwiped. Not performing, not crying — just empty."
+  },
+  "setting": {
+    "location": "City sidewalk at night, rain falling steadily. Streetlights creating harsh orange pools of light on wet pavement. Blurred neon reflections from nearby shops on the ground. No umbrella. Real urban clutter — a bus stop bench, a trash can, blurred pedestrians with umbrellas passing behind.",
+    "time_of_day": "Night, around 10pm. Artificial streetlight as the only illumination."
+  },
+  "composition": {
+    "camera_angle": "Slightly high angle — phone held at forehead height, tilted 7 degrees to the right. Not level, not centered.",
+    "framing": "Small medium. Top frame: crown with headspace and rain visible above. Bottom frame: below the chest showing wet shirt. Subject slightly left of center — accidentally off-center framing. More vertical space reveals rain falling and wet street environment."
+  },
+  "camera_settings": {
+    "lens": "50mm equivalent (iPhone front camera)",
+    "aperture": "f/8.0",
+    "depth_of_field": "wide",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Harsh orange streetlight from above-left creating deep shadows under eyes and nose. Rain catching the light as visible streaks. Faint cool glow from phone screen below. No fill, no bounce — whatever light was there.",
+    "color_grading": "No color grade. Raw phone white balance — slightly orange from streetlights. No post-processing."
+  },
+  "mood": "Hollow resignation — the quiet after fighting stops. Not dramatic, not crying. The emptiness of someone who cared too much for too long and finally let go. Rain on the face unwiped because it doesn't matter anymore.",
+  "authenticity_level": "raw_ugc",
+  "aesthetic_style": "Shot on iPhone front-facing camera held at arm's length. Slightly awkward angle — not centered, not level. Harsh available light with no diffusion. Grainy sensor noise. No post-processing, no color grade. Natural white balance. Real environment clutter in background. Subject caught mid-expression — not posed. Looks like a raw selfie video still from TikTok or Instagram Reels.",
+  "text_overlay": {
+    "text": "IT'S TIME TO SURRENDER.",
+    "placement": "deliberate_cut_through",
+    "style": "Large bold white sans-serif text crossing through the upper face — forehead to bridge of nose. Intentional, confident, part of the composition."
+  },
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "8K",
+    "ultra realistic",
+    "professional photography",
+    "studio lighting",
+    "cinematic",
+    "CGI",
+    "rendered",
+    "smooth skin",
+    "airbrushed",
+    "perfect framing",
+    "centered composition",
+    "color graded",
+    "posed"
+  ]
+}

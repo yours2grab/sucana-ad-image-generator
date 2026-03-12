@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "A stressed 30-something marketer.",
+        "action": "Staring off-camera at a blurred-out printed CRM report. Expression communicates frustration and the reality of explaining poor results to a client."
+    },
+    "setting": {
+        "location": "A modern ad agency office. Glowing monitors displaying red downward-trending graphs (Ads Manager) in the out-of-focus background.",
+        "time_of_day": "Afternoon"
+    },
+    "composition": {
+        "camera_angle": "Extreme close-up shot.",
+        "framing": "Rule of thirds, centered. MUST follow cropping rules: never cut in flesh, leave headspace (no cutting top of head), cut above eyebrows for close-ups, and always give the chin breathing room. Focusing heavily on the stressed facial expression."
+    },
+    "camera_settings": {
+        "lens": "80mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "Low depth of field, meaning the background is mostly blurred and the attention is strictly on the subject."
+    },
+    "lighting": {
+        "type": "Natural light (unless specified otherwise)",
+        "color_grading": "Cool tones, slightly moody, realistic contrast."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: text, watermarks, deformities, bad anatomy, cartoon, illustration, 3d render, artificial lighting, unnatural skin, cut off heads, cut off chins, weird cropping."
+}

@@ -1,0 +1,37 @@
+{
+  "subject": {
+    "description": "A bartender's hands mid-pour behind a polished dark wood bar. Five different cocktail glasses lined up in a row, each a different style and color: a deep amber old fashioned in a rocks glass, a bright pink cosmopolitan in a coupe, a clear gin and tonic in a highball, a dark purple aviation in a martini glass, and a golden whiskey sour in a tumbler. Fresh ingredients are neatly arranged beside the glasses: citrus peels, herbs, ice, small bowls of bitters. The bartender's hands are precise, pouring from a metal jigger into the fifth glass. Visible forearm tattoo, rolled-up sleeves on a dark shirt.",
+    "action": "The bartender is mid-pour, tilting a metal jigger with controlled precision into the last cocktail glass. The other four glasses are finished and perfectly presented in a line."
+  },
+  "setting": {
+    "location": "A high-end craft cocktail bar with dark wood surfaces, warm ambient lighting, and blurred shelves of bottles in the background. The bar top is clean and polished, reflecting the warm light. Soft bokeh of bar atmosphere behind.",
+    "time_of_day": "Evening, warm interior lighting from overhead Edison bulbs and under-bar amber glow."
+  },
+  "composition": {
+    "camera_angle": "Slightly overhead from the customer side, angled down at the bar surface. Camera focused on the hands, glasses, and bar top. No head or face visible in frame at all.",
+    "framing": "Close-up on the bar surface. The five cocktail glasses span the frame left to right across the center. Only the bartender's hands and forearms are visible entering from the top of frame. The frame cuts at mid-forearm, well below the elbow. No head, no face, no shoulders, no chest. Just hands working. Ingredients fill the spaces between glasses. Blurred bottle shelves in the deep background."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Warm amber overhead Edison bulb lighting casting pools of golden light on the bar surface. Subtle under-bar LED glow creating warm reflections on the polished wood. Each cocktail catches the light differently based on its color and glass shape.",
+    "color_grading": "Warm amber dominant palette with rich shadows. The cocktail colors pop against the dark wood. Cinematic warm highlights, deep brown shadows. Slight teal in the darkest shadow areas for contrast."
+  },
+  "mood": "Craftsmanship and precision. Five custom creations from the same bar, same hands, same ingredients. The bartender knows exactly what each person needs before they ask. Quiet mastery.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Food and beverage photography quality with cinematic color grading. Visible condensation on glasses, real liquid reflections, light catching through the drinks.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "extra fingers", "six fingers", "mutated hands", "fused fingers", "too many fingers", "malformed hands",
+    "cartoon", "illustration", "3D render", "CGI", "rendered",
+    "face", "head", "portrait", "shoulders", "chest", "neck", "cropped body"
+  ]
+}

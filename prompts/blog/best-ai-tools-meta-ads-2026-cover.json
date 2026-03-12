@@ -1,0 +1,52 @@
+{
+  "subject": {
+    "description": "A male media buyer in his mid-30s, wearing a dark navy crew neck sweater over a white t-shirt. Unshaven, two-day stubble. Skin slightly pale from screen time. Dark circles beginning under eyes. Right hand frozen mid-air between two computer mice on the desk, fingers spread, caught in the micro-moment of indecision. Left hand gripping the edge of the desk. Wedding ring visible on left hand.",
+    "action": "Frozen mid-reach between two mice, eyes darting between dual monitors, caught in the paralysis of too many choices. Body slightly leaned forward, weight shifted, unable to commit to either screen."
+  },
+  "setting": {
+    "location": "A cluttered home office at night. Dual 27-inch monitors on a dark wood desk, each showing a different colorful dashboard with graphs and metrics. Behind the monitors, a wall covered in sticky notes of different colors. A cold cup of coffee sits to the right, a cable management nightmare of tangled cords runs across the desk. A small desk lamp provides the only warm light source.",
+    "time_of_day": "Late night, well past midnight. The room is dark except for the blue glow of the monitors and the warm cone of a single desk lamp."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly from the left side, capturing both the subject's profile and the dual monitor setup in a medium shot.",
+    "framing": "Full medium shot. Top frame: crown of head with generous headspace. Bottom frame: desk surface with both mice visible. Subject positioned at right third of frame, monitors filling left and center. Rule of thirds with eyes on upper horizontal line."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Dual light source: cool blue-white light from the dual monitors casting on the subject's face and chest, creating the classic screen-lit look. A single warm desk lamp from the right side providing an amber counter-light on his jaw and shoulder. The rest of the room falls into deep shadow.",
+    "color_grading": "Cool blue dominant from screens with warm amber accent from desk lamp. High contrast between the lit face and dark room. Slight desaturation in the shadows. Cinematic teal-orange pushed subtly."
+  },
+  "mood": "The paralysis of abundance. Not stressed, not panicked. Just frozen. The quiet overwhelm of someone who has too many options and not enough clarity. The moment before giving up for the night.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Skin pores visible, individual stubble hairs visible. Real desk clutter, real cable mess, real sticky notes with actual handwriting texture. Looks like a still from a documentary about the modern knowledge worker.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "extra fingers"
+  ]
+}

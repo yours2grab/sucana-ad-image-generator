@@ -1,0 +1,53 @@
+{
+  "subject": {
+    "description": "A beekeeper, male, early 40s, Mediterranean complexion, wearing a weathered white beekeeping suit with the veil pushed back off his face. Visible stubble, sun-weathered skin with pores visible. Hands bare, no gloves, calloused fingers gripping the edges of a wooden honeycomb frame. Bees crawling on his hands and forearms. Completely calm, no tension in his body.",
+    "action": "Lifting a single honeycomb frame from an open wooden hive box, holding it up at chest height to inspect it. Eyes focused intently on the comb, reading the pattern of cells. Thousands of bees swirling around him in the golden light. His body language is relaxed, practiced, unhurried."
+  },
+  "setting": {
+    "location": "A small apiary in a wildflower meadow. Three or four wooden hive boxes in a loose row. Tall grass and wildflowers (lavender, clover) surrounding the hives. Rolling green hills soft-focused in the far background. No buildings, no roads, just open countryside.",
+    "time_of_day": "Late golden hour, sun low on the horizon, warm amber light flooding the scene from camera left."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly low angle looking up at the beekeeper holding the frame against the sky.",
+    "framing": "Full medium shot. Top frame: sky with headspace above the beekeeper's head. Bottom frame: hive boxes at hip level. Subject positioned on the right third of the frame, honeycomb frame catching the golden light. Bees backlit, glowing like sparks in the air around him."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Natural golden hour sunlight from camera left, warm and directional. Bees backlit and glowing. Soft shadows on the beekeeper's face from the low sun angle. Light catching the wax cells on the honeycomb frame, making them glow amber.",
+    "color_grading": "Warm amber with golden highlights. Deep shadows in the meadow grass. Skin tones protected and natural. Slight teal push in the shadow areas for cinematic contrast."
+  },
+  "mood": "Quiet mastery. Total calm amid apparent chaos. The feeling of someone who reads a thousand signals at once without thinking about it. Practiced, unhurried, confident. The bees are not a threat, they are data, and he reads them effortlessly.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Skin pores visible, individual bee wings catching light, wax texture on honeycomb cells visible. Looks like a still from a National Geographic documentary.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "extra fingers",
+    "blurry face",
+    "stock photo look",
+    "posed",
+    "fake smile"
+  ]
+}

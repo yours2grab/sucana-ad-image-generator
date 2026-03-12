@@ -1,0 +1,57 @@
+{
+  "subject": {
+    "description": "White male, mid-30s, slightly tired eyes, plain white button-down shirt (top button open, no tie). Face caught in a very specific expression: both hands are flat on the desk, he's leaned forward slightly, looking straight at camera — not at a screen. Expression is the face of someone who has just accepted an absurd reality. Micro-expression: eyebrows slightly raised, the corners of the mouth pulled very slightly down — not frowning, just the face of 'this is actually happening.' Zero performance. Real skin texture, slight redness at cheeks, no retouching.",
+    "action": "Hands flat on desk, leaned forward toward camera. Still. Not typing, not working. Just... stopped. The stillness of someone who knows they're about to have a very difficult conversation and is mentally preparing."
+  },
+  "setting": {
+    "location": "Small open-plan office or agency space — other desks blurred in the background, one other person's silhouette barely visible behind him. He's the only one who stopped.",
+    "time_of_day": "Mid-morning — cool overhead office lighting, a window with flat daylight behind him."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, dead center. He's looking directly into the lens.",
+    "framing": "Medium close-up — head and shoulders, hands barely visible at bottom of frame resting on desk. Full head in frame, natural headspace. Chin fully visible with breathing room."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow — background office blurred, subject sharp",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Flat overhead office fluorescent with cool daylight from window behind. Slightly unflattering — real office light, not optimized.",
+    "color_grading": "Cool neutral, slightly desaturated. No warmth added. Feels like the day got colder when the news hit."
+  },
+  "mood": "Pre-conversation stillness. The specific quiet of someone who has fully absorbed bad news and is now deciding what to do with it. Not reactive — post-reactive. The calm before the hard conversation.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. High-end editorial documentary photography — the kind shot for a business magazine feature on modern work culture. Real skin, real light, no production polish.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "smile",
+    "angry expression",
+    "theatrical emotion",
+    "stock photo look",
+    "professional headshot",
+    "studio lighting",
+    "ring light",
+    "airbrushed skin",
+    "smooth skin",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "CGI",
+    "rendered",
+    "corporate portrait",
+    "happy office",
+    "warm tones"
+  ]
+}

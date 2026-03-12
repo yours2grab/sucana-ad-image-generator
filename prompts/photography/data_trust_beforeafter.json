@@ -1,0 +1,47 @@
+{
+  "subject": {
+    "description": "Same person across both panels — white female, early 40s, professional, dark hair pulled back loosely. LEFT PANEL: relaxed posture, slight confident smile, one hand on coffee mug, looking at screen with ease — the look of someone who trusts what they're seeing. RIGHT PANEL: same woman, leaning forward with both hands on desk, pale, lips pressed tight together — the grimace of someone who just found something they can't explain. Brow furrowed, one side higher than the other. Nostrils barely flared.",
+    "action": "LEFT: Leaning back, reviewing dashboard casually, at ease. RIGHT: Leaning in hard, face close to the screen, one hand pressed flat on the desk."
+  },
+  "setting": {
+    "location": "Modern office desk. LEFT PANEL: Clean, organized, warm morning light — everything in order, neat desk, coffee steam rising, screen showing green metrics. RIGHT PANEL: Same desk, same person, but now papers are scattered, coffee forgotten and cold, screen casting harsh light on her face.",
+    "time_of_day": "LEFT: Morning, golden light through windows. RIGHT: Afternoon, flat harsh overhead fluorescent."
+  },
+  "composition": {
+    "camera_angle": "Eye-level on both panels",
+    "framing": "Single image split down the middle vertically. Each panel is a close-up — crown with headspace at top, cut at base of neck. Eyes land in upper third of each panel. LEFT panel: cool blue-grey tones. RIGHT panel: warm harsh amber. The vertical split is a hard line."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "LEFT: Soft flattering window light — everything looks fine. RIGHT: Harsh overhead fluorescent — unflattering, exposing, nowhere to hide.",
+    "color_grading": "LEFT panel: Cool blue-grey, desaturated, clinical — the color of blind trust. RIGHT panel: Harsh warm amber-orange — the uncomfortable heat of reality hitting. The color contrast IS the entire message."
+  },
+  "mood": "LEFT: False confidence — the ease of someone who doesn't know yet. RIGHT: The specific sick feeling of discovering you've been explaining wrong numbers to clients for three weeks.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "Shot on Sony A7 with 80mm lens. Split diptych composition — left panel cold and clinical, right panel warm and harsh. Skin pores visible, individual hair strands visible. Both moments feel caught, not posed. Looks like stills from a prestige documentary.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Square (1:1) 1080x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "posed"
+  ]
+}

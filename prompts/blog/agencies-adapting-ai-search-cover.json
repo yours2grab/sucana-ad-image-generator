@@ -1,0 +1,54 @@
+{
+  "subject": {
+    "description": "A lone man, mid-40s, wearing a dark wool overcoat, standing in front of an open brass mailbox. His shoulders are slightly dropped. He holds the empty box open with one hand, his other hand hanging at his side. Wearing dark trousers and leather shoes. No expression of drama — just the quiet, still moment of realizing there is nothing there.",
+    "action": "Standing at an open empty mailbox in a row of full ones, staring into it. Caught mid-moment, not performing — just holding the empty door open with one finger."
+  },
+  "setting": {
+    "location": "A vintage post office interior from the 1940s-50s. Rows of small brass mailboxes covering the walls, most stuffed with envelopes and papers. Worn marble floor. Dark wood paneling. A service counter visible in the soft background. Dust particles floating in shafts of warm amber light coming through tall frosted windows. The room has the feeling of a place that holds everyone's news — except his.",
+    "time_of_day": "Late afternoon — low sun pushing through frosted glass, casting long warm amber shafts across the room"
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly wide to show the rows of full mailboxes surrounding the single empty one. Subject positioned left of center — the empty box and his hand are the focal point.",
+    "framing": "Wide shot — full body visible, environment fills the frame. Subject is part of the world, not the world. Rows of mailboxes extend into the background. The one empty box is visually isolated by its openness."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Natural afternoon sun pushing through tall frosted post office windows. Warm amber shafts cutting across the room at low angles. Dust particles visible in the beams. Shadows deep on the side walls. The empty mailbox slightly underlit — darker than the rest.",
+    "color_grading": "Warm amber tones, vintage film grain, slightly desaturated background, warm protected skin tones, golden highlights on the brass mailboxes"
+  },
+  "mood": "The quiet, specific feeling of being absent from a list you expected to be on. Not despair — just stillness. Everyone else got something. You checked and found nothing.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Cinematic warm-amber color grade. Feels like a still from a prestige period drama. Every brass mailbox individually detailed. Dust particles visible in light shafts. Marble floor grain visible. Wood paneling texture present.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "stock photo look",
+    "fake smile",
+    "modern post office",
+    "digital screens",
+    "fluorescent lighting"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/generate.py \"prompts/people/the_lead_small_team_closeup_v2.json\")",
+      "Bash(python3 scripts/generate.py \"prompts/people/the_lead_small_team_closeup_v2.json\")",
+      "Bash(open \"/Users/virgilbrewster/My Drive/VIRGIL OS/Sucana/AI Agents/Ad Image Generator/images/people/the_lead_small_team_closeup_v2.png\")",
+      "Bash(open \"/Users/virgilbrewster/My Drive/VIRGIL OS/Sucana/AI Agents/Ad Image Generator/images/people/the_lead_small_team_ugc_v2.png\")",
+      "Bash(open \"/Users/virgilbrewster/My Drive/VIRGIL OS/Sucana/AI Agents/Ad Image Generator/images/people/the_lead_small_team_ugc_v2_v1.png\" \"/Users/virgilbrewster/My Drive/VIRGIL OS/Sucana/AI Agents/Ad Image Generator/images/people/the_lead_small_team_ugc_v2_v2.png\")"
+    ]
+  }
+}

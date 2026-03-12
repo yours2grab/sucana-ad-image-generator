@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "A pair of adult male hands, olive skin, clean nails, no rings. Fingers spread slightly as they release an object. Veins visible on the back of the hands. Natural skin texture, not model-perfect.",
+    "action": "Releasing a paper airplane made from a printed spreadsheet with visible rows and columns of data. The airplane is mid-flight, just left the fingertips, angled upward toward the sky."
+  },
+  "setting": {
+    "location": "Rooftop edge of a concrete building. City skyline stretches below in soft focus. Buildings lit in cool blue and purple from dusk light. A few warm amber streetlights dotting the lower frame. The rooftop surface is raw concrete with minor weathering.",
+    "time_of_day": "Dusk, just after sunset. Deep blue sky with the last warm glow on the western horizon."
+  },
+  "composition": {
+    "camera_angle": "Close-up on the hands and paper airplane, shot from slightly below and behind the subject's shoulder.",
+    "framing": "Rule of thirds. Hands in the lower left third. Paper airplane in the center moving toward upper right. City skyline fills the background. No face visible."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Natural dusk light from the west. Cool blue ambient from the sky. Warm amber from distant streetlights below reflecting on the paper airplane.",
+    "color_grading": "Cool blue dusk with warm amber accents, cinematic teal-orange undertones."
+  },
+  "mood": "Release. Letting go of something heavy. The lightness of sending manual work away permanently.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}

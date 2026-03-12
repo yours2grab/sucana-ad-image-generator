@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "A marketing director wearing a basic hoodie.",
+        "action": "Sitting in their parked car, holding the phone up to record themselves. They are ranting aggressively about 'prompting for 45 minutes' and looking directly into the lens."
+    },
+    "setting": {
+        "location": "The interior of a typical car with a blurred steering wheel. Suburban street visible outside.",
+        "time_of_day": "Overcast day"
+    },
+    "composition": {
+        "camera_angle": "Front-facing selfie camera angle.",
+        "framing": "Centered selfie framing. MUST follow cropping rules: perfect headspace above the hair, no cut flesh on the holding arm, ample breathing room for the chin."
+    },
+    "camera_settings": {
+        "lens": "iPhone wide lens equivalent (approx 24mm)",
+        "aperture": "f/8.0",
+        "depth_of_field": "Wide depth of field, realistic smartphone camera focus."
+    },
+    "lighting": {
+        "type": "Flat, overcast natural light coming through the windshield.",
+        "color_grading": "Unedited iPhone photo, completely raw, amateur, 0 aesthetic effort."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+    },
+    "negative_prompt": "Things that MUST NOT appear: professional lighting, aesthetic filters, text, watermarks, deformities, bad anatomy, cut off heads, cut flesh."
+}

@@ -1,0 +1,36 @@
+{
+  "subject": {
+    "description": "A man in his early 50s, European, athletic build, wearing dark chinos and a casual button-down shirt untucked. Standing at the very edge of a swimming pool, toes at the lip. Body slightly forward as if about to step in. Reflection visible in the perfectly still water below. Micro expression: jaw set, eyes focused downward at the water, one hand slightly clenched at his side. The composure of someone who has already decided.",
+    "action": "Standing fully dressed at the edge of a swimming pool at dawn, looking down at his own reflection in the still water, about to leap."
+  },
+  "setting": {
+    "location": "A luxury villa pool deck at dawn. Perfectly still turquoise pool water reflecting the sky. Empty sun loungers in the background. Tropical plants at the edges. Nobody else present. Quiet, private moment.",
+    "time_of_day": "Pre-sunrise dawn, first light"
+  },
+  "composition": {
+    "camera_angle": "Low angle from water level, looking up at the man from the pool surface",
+    "framing": "Wide shot. Subject stands in the center third. Pool water fills the lower third of frame with his reflection. Sky and horizon fill the upper third. Generous negative space."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Pre-sunrise blue ambient light with the first warm orange glow appearing at the horizon line. Cool blue shadows on the man, warm rim light catching his shoulder and one side of his face.",
+    "color_grading": "Deep blues with warm orange accents at horizon, cinematic contrast"
+  },
+  "mood": "The quiet before a leap. Determination disguised as stillness.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered",
+    "stock photo look", "overly polished"
+  ]
+}

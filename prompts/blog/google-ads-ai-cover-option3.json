@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "A close-up of weathered hands using a fabric tape measure on a worn wooden workbench. Five different fabric swatches are laid out neatly in a row, each a different color and texture: raw linen, navy wool, burgundy silk, charcoal tweed, and cream cotton. A pair of sharp tailoring scissors and a spool of dark thread sit to the right. The hands belong to an older person, visible veins, precise grip.",
+    "action": "The hands are mid-measurement, stretching the tape across one of the fabric swatches with practiced precision. One hand holds the tape taut, the other presses it flat against the fabric."
+  },
+  "setting": {
+    "location": "A traditional tailor's workshop. Wooden workbench with visible grain and wear marks. Soft clutter of tools in the background, slightly out of focus: pin cushions, hanging thread spools, a dress form barely visible.",
+    "time_of_day": "Late morning, soft natural window light coming from the left side."
+  },
+  "composition": {
+    "camera_angle": "Slightly overhead, close-up on the hands and workbench surface. The five swatches create a horizontal line across the lower third.",
+    "framing": "Close-up. Hands centered. Swatches span the frame horizontally. Tools anchoring the right side. Shallow depth of field blurs the background workshop."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft natural window light from the left, casting gentle shadows across the workbench. No harsh highlights. The light catches the texture of each fabric swatch differently.",
+    "color_grading": "Warm neutral tones. Rich fabric colors pop against the worn wood. Slightly desaturated background. Protected warm skin tones on the hands."
+  },
+  "mood": "Craftsmanship. The quiet precision of measuring twice before cutting once. Custom-fit over mass production. Each piece chosen with intention.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Documentary texture with visible grain in the wood and fabric weave.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}

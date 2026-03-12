@@ -1,0 +1,48 @@
+{
+  "subject": {
+    "description": "Same man in both panels: mid-30s white male, button-down shirt, dark jeans. Left panel: hunched forward, shoulders tense, eyes wide and stressed, mouth tight, visibly overwhelmed — same man at his desk surrounded by chaos. Right panel: same man, same chair, leaning back with a genuine relaxed smile, one hand resting on the desk, completely at ease. Real skin pores visible, individual hairs sharp.",
+    "action": "Left: frozen in stress, unable to cope with the chaos around him. Right: relaxed and smiling, totally in control."
+  },
+  "setting": {
+    "location": "Left panel: same desk but buried in clutter — papers everywhere, three monitors open with overwhelming data, chrome T-1000 robots standing shoulder to shoulder behind him and on both sides, leaning over him, operating his keyboard and mouse. He is enclosed and overwhelmed. Right panel: same desk, completely clean and organized — single monitor, one coffee mug, small plant, no robots anywhere. Just him.",
+    "time_of_day": "Left panel: harsh overhead fluorescent, no natural light. Right panel: warm morning natural window light flooding in from the left."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, medium shot, both panels matched for continuity",
+    "framing": "Diptych — two equal vertical panels side by side divided by a thin white line. Subject centered in both panels at identical scale. Full upper body from waist up, clear headspace on both sides."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Left panel: cold harsh fluorescent overhead, chrome robot surfaces casting hard blue reflections onto his face and desk. Right panel: warm soft natural window light from left, golden and clean.",
+    "color_grading": "Left panel: cold desaturated cyan-blue, high contrast, clinical and oppressive. Right panel: warm amber tones, lifted shadows, airy and light."
+  },
+  "mood": "Left: trapped, stressed, drowning in robot chaos. Right: free, calm, back in control.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "4K ultra realistic, hyper realistic photorealism. Skin pores visible. Individual hairs visible. Looks like two frames from a documentary film.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Square (1:1) 1080x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "CGI",
+    "rendered",
+    "comic book panel"
+  ]
+}

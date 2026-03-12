@@ -1,0 +1,58 @@
+{
+  "subject": {
+    "description": "White male, mid-30s, slightly disheveled short hair, light stubble, wearing a plain dark grey t-shirt. Face showing a highly specific micro-expression: right eyebrow raised 2-3mm, mouth barely open (3-4mm gap), eyes wide but not theatrical — the exact face a person makes the millisecond they read something they cannot believe. Head tilted 1-2 degrees back. Not performing. Caught mid-reaction. Visible skin texture, slight tiredness under eyes, zero retouching.",
+    "action": "Staring at a monitor just out of frame to the right. His face is turned slightly toward the screen. He's reading something. One hand rests flat on a keyboard. The other hand is slightly raised — mid-movement, caught between typing and stopping."
+  },
+  "setting": {
+    "location": "Real home office or small agency desk — dual monitors, coffee mug, scattered papers, a sticky note on the monitor edge. Lived-in, not curated. Background blurred but enough detail to feel real.",
+    "time_of_day": "Late afternoon — warm desk lamp on, window light fading. Slightly warm but flat."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly to the left of center — the monitor is to his right, we see his face in 3/4 view as he looks at it.",
+    "framing": "Medium close-up — head, shoulders, and top of keyboard just visible at bottom edge. Full head in frame with natural headspace above. No flesh cuts. Chin visible with breathing room."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow — background desk blurred, subject face sharp",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Desk lamp warm light from left, faint blue monitor glow catching the right side of his face. Practical and real.",
+    "color_grading": "Slightly warm, desaturated. No LUT, no cinematic grade. Editorial neutral."
+  },
+  "mood": "The exact moment of disbelief — not anger yet, not defeat yet. The 0.5 seconds after your brain processes that someone just did something irreversible to your work and you haven't decided how to feel about it.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Real skin texture, pores visible, no airbrushing. High-end editorial portrait quality — looks like a New York Times Magazine photo, not a stock image.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "smile",
+    "angry expression",
+    "theatrical emotion",
+    "dramatic face",
+    "stock photo look",
+    "professional headshot",
+    "studio lighting",
+    "ring light",
+    "airbrushed skin",
+    "smooth skin",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "CGI",
+    "rendered",
+    "corporate portrait",
+    "clean desk",
+    "minimal aesthetic"
+  ]
+}

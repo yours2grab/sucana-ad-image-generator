@@ -1,0 +1,24 @@
+{
+    "subject": {
+        "description": "A frustrated 30-something male media buyer with slightly disheveled hair, wearing a casual button-down shirt. He is sitting at a coffee shop table.",
+        "action": "Looking intently at a printed analytics report on the table. He has a look of intense concentration and slight disbelief. His hands are hidden or resting naturally out of focus."
+    },
+    "setting": {
+        "location": "A trendy, dimly lit coffee shop with a wooden table surface and slightly blurred background details like an espresso machine or warm hanging lights.",
+        "time_of_day": "Late afternoon"
+    },
+    "composition": {
+        "camera_angle": "Eye-level, slightly angled downwards towards the table to capture both his face and the paperwork.",
+        "framing": "Rule of thirds. The man's face is on the top right intersection, while the circled paper is on the bottom left.",
+        "lens_type": "50mm",
+        "depth_of_field": "Shallow depth of field to keep the man and the paper in sharp focus while completely blurring the noisy coffee shop background."
+    },
+    "lighting": {
+        "type": "Natural mixed with soft artificial",
+        "direction": "Side lit from a nearby window, creating a dramatic, realistic contrast on his face.",
+        "color_grading": "Realistic, slightly moody, leaning into cinematic documentary style."
+    },
+    "aesthetic_style": "High-end photorealism, documentary style photography, authentic ad creative.",
+    "aspect_ratio": "9:16",
+    "negative_prompt": "text, watermarks, deformities, bad anatomy, cartoon, illustration, 3d render, artificial lighting, unnatural skin, extra fingers, mutated hands, poorly drawn hands, distorted fingers, weird pens"
+}

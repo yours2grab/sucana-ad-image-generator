@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "A marketer in a plain t-shirt.",
+        "action": "Holding up a handwritten cardboard sign that reads 'WE ARE NOT NIKE'. Looking exasperated directly into the smartphone camera lens while standing in a cramped storage closet acting as an office."
+    },
+    "setting": {
+        "location": "A chaotic, small supply closet filled with boxes and marketing materials, doubling as an office space.",
+        "time_of_day": "Midday"
+    },
+    "composition": {
+        "camera_angle": "Front-facing selfie camera angle.",
+        "framing": "Centered selfie framing. MUST follow cropping rules: perfect headspace above the hair, no cut flesh on the holding arm, ample breathing room for the chin."
+    },
+    "camera_settings": {
+        "lens": "iPhone wide lens equivalent (approx 24mm)",
+        "aperture": "f/8.0",
+        "depth_of_field": "Wide depth of field, realistic smartphone camera focus emphasizing the cramped space."
+    },
+    "lighting": {
+        "type": "Harsh overhead closet light.",
+        "color_grading": "Unedited iPhone photo, completely raw amateur look, 0 aesthetic effort."
+    },
+    "aesthetic_style": "RAW photo, unedited smartphone photo, authentic unretouched photography, hyper realistic photorealism, actual human beings. DO NOT MAKE IT A CARTOON OR DIGITAL ART.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+    },
+    "negative_prompt": "Things that MUST NOT appear: professional lighting, aesthetic filters, massive offices, watermarks, deformities, bad anatomy, digital art, illustration, vector art, cartoon, 3D render, CGI."
+}

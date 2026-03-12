@@ -1,0 +1,50 @@
+{
+  "subject": {
+    "description": "Mid-30s white male, wrinkled grey t-shirt, dark jeans, 3-day stubble. Caught mid-turn — body still facing away but head and shoulders have rotated to look behind him. Eyes wide, mouth parted in shocked recognition, left hand still holding a coffee cup tilting slightly as he's lost awareness of it. Real skin texture, visible pores on nose and cheeks, stress lines at corner of his eyes.",
+    "action": "Turning around mid-step, freezing the moment his eyes land on the chrome humanoid robots surrounding him — mouth open, processing what he's seeing."
+  },
+  "setting": {
+    "location": "Open plan office corridor between rows of desks. Chrome T-1000 humanoid robots filling the space — at desks, standing in the aisle, walking toward him from both directions. He is the only biological human in the frame. Robots close, within arm's reach on all sides.",
+    "time_of_day": "Midday, harsh overhead fluorescent lighting"
+  },
+  "composition": {
+    "camera_angle": "Slightly low angle, eye-level to his chest — makes him feel small against the robots. Medium shot.",
+    "framing": "Rule of thirds — subject slightly left of center, turning right. Robots visible in soft focus filling both sides and background. Full body from knee up, clear headspace. Face tack sharp, robots progressively more blurred with distance."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "subtle on the turning torso only, head and face sharp"
+  },
+  "lighting": {
+    "type": "Harsh overhead fluorescent strips. Chrome robot surfaces creating hard specular reflections. One cool window light source from far left giving slight directional fill on his face.",
+    "color_grading": "Cinematic teal-orange. Skin tones protected and warm, background pushed cool. High contrast."
+  },
+  "mood": "The exact second of horrified recognition — he just realized he's the last human in the room",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "4K ultra realistic, hyper realistic photorealism. Skin pores visible. Individual hairs and stubble visible. Cinematic — looks like a still from a prestige drama series.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "CGI",
+    "rendered",
+    "science fiction movie poster",
+    "concept art"
+  ]
+}

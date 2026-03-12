@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "An exhausted, stressed business owner in their late 30s.",
+        "action": "Scrolling slowly on their smartphone, looking exhausted by the content. Faintly reflected in their glasses (or blurred in the dark background) is a chaotic collage of generic, overly-colorful, clearly AI-generated illustrations."
+    },
+    "setting": {
+        "location": "A dark, quiet home office or living room late at night.",
+        "time_of_day": "Night"
+    },
+    "composition": {
+        "camera_angle": "Extreme close-up shot.",
+        "framing": "Rule of thirds, centered. MUST follow cropping rules: never cut in flesh, leave headspace (no cutting top of head), cut above eyebrows for close-ups, and always give the chin breathing room. Focusing heavily on the tired eyes."
+    },
+    "camera_settings": {
+        "lens": "80mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "Low depth of field, strictly focusing on the human face, blurring the AI elements in the background."
+    },
+    "lighting": {
+        "type": "Soft glowing light from the smartphone screen illuminating out of the darkness.",
+        "color_grading": "Cool screen tones, dark, cinematic, realistic contrast."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: text, watermarks, deformities, bad anatomy, artificial studio lighting, unnatural skin, cut off heads, cut off chins, weird cropping."
+}

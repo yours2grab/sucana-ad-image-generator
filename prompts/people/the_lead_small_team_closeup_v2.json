@@ -1,0 +1,54 @@
+{
+  "subject": {
+    "description": "White man, early 30s, slightly tired eyes with faint dark circles, minimal stubble, wearing a plain grey crewneck sweatshirt. Face is completely neutral — no smile, no anger, just a flat deadpan expression that communicates quiet exhaustion and skepticism. Skin texture visible, pores and all — absolutely no airbrushing or smoothing.",
+    "action": "Staring directly into the camera lens. Still. Not performing. Just looking."
+  },
+  "setting": {
+    "location": "Blurred background — hints of a small, cluttered home office desk. A monitor edge and a stack of papers just barely visible in the bokeh.",
+    "time_of_day": "Late morning — flat, slightly cool natural light from a window off to the left."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, dead center. No tilt.",
+    "framing": "Extreme close-up portrait. Frame cuts cleanly above the eyebrows — not at the top of the head, above the brows. The chin is fully in frame with 15–20px of breathing room below it. No cropping of ears. Face fills roughly 80% of the frame."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft natural window light from the left side, creating a gentle shadow on the right cheek. No fill light. No studio setup.",
+    "color_grading": "Slightly desaturated, cool neutral tones. No warmth. No contrast boost. Muted and honest."
+  },
+  "mood": "Quiet exhaustion. The look of someone who has read one too many enterprise case studies and felt nothing. Not angry — just done. Relatable, grounded, real.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Real skin texture — pores, slight imperfections. Zero retouching. Looks like a high-quality editorial portrait, not a headshot.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "smile",
+    "happy expression",
+    "professional headshot look",
+    "studio lighting",
+    "ring light",
+    "airbrushed skin",
+    "smooth skin",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "dramatic lighting",
+    "corporate portrait"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "subject": {
+    "description": "Male agency founder, mid-30s, South Asian ethnicity, medium build, wearing a charcoal blazer over a white Oxford shirt — no tie, collar open one button. Clean stubble, not model-perfect. Holding a thin tablet in his left hand, arm hanging naturally at his side. Skin pores visible.",
+    "action": "Walking purposefully through a glass-walled office corridor, mid-stride, body angled slightly toward camera. Not looking at camera — gaze directed slightly ahead and upward, the specific expression of someone mentally rehearsing what they are about to say in a meeting."
+  },
+  "setting": {
+    "location": "Modern open-plan office corridor with floor-to-ceiling glass walls on the left. Blurred colleagues and workstations visible through the glass. Clean, minimal, professional interior.",
+    "time_of_day": "Early morning — 8:30am. Bright directional morning sun streaming through glass walls from the left."
+  },
+  "composition": {
+    "camera_angle": "Eye-level with slight low angle — positioned just below eye level to give the subject quiet authority.",
+    "framing": "Full Medium shot — crown with headspace at top, bottom frame at hip. Subject positioned left of center, rule of thirds. Glass walls and blurred background fill the right two-thirds of frame."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "subtle"
+  },
+  "lighting": {
+    "type": "Strong natural morning sunlight flooding from floor-to-ceiling windows on the left. Hard directional light catching the left side of his face and jacket shoulder. Right side falls into soft cool shadow. Warm rim light on hair from the window behind.",
+    "color_grading": "Cinematic teal-orange grade. Blue-pushed shadows, warm protected skin tones on the lit side. High contrast between bright window light and cooler corridor interior."
+  },
+  "mood": "Confident, purposeful, quietly prepared. The expression of someone who already knows the data is solid before walking into the room.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Skin pores visible, individual stubble hairs rendered. Shallow DOF with smooth background bokeh. Feels like a still from a prestige business documentary. Subject caught mid-stride, not posed for camera.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "stock photo look",
+    "fake smile",
+    "looking at camera",
+    "posed",
+    "stiff",
+    "overly polished"
+  ]
+}

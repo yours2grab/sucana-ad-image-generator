@@ -1,0 +1,48 @@
+{
+  "subject": {
+    "description": "White male, late 30s, stubble on jaw, visible skin pores, dark circles under eyes, wearing a rumpled navy button-down shirt with the top button undone. Jaw barely dropped, lower lip slightly parted — the half-second before words form. Eyes wide, pupils tracking right toward a second monitor — processing something he didn't expect.",
+    "action": "Turning his head slowly from one monitor to the other, hand resting frozen on the mouse, body completely still except for the eyes moving."
+  },
+  "setting": {
+    "location": "Dimly lit home office at night. Left monitor glowing green — a Google Ads dashboard showing perfect ROAS metrics, green arrows pointing up, everything clean and orderly. Right monitor showing a raw spreadsheet — red numbers, near-zero actual conversion column, a mess of data telling a completely different story. Desk has a half-drunk coffee cup tilted slightly, a pen uncapped, papers spread out.",
+    "time_of_day": "Late night, 11pm"
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly to the left of center",
+    "framing": "Small medium shot. Crown with headspace at top frame, cut below the nipples at bottom. Eyes land in upper third. Subject positioned rule of thirds left, both monitors visible behind him."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Dual monitor glow — cool blue-green from the Google dashboard on the left side of his face, harsher white spreadsheet light on the right side. No overhead light. The monitors are the only light source.",
+    "color_grading": "Cinematic teal-orange — blue-pushed shadows on the left where the good data is, warm amber light catching the right side of his face near the bad data. Skin tones protected and warm despite the blue ambient."
+  },
+  "mood": "The specific feeling of realizing you've been deceived by something you trusted — not dramatic shock, but the quiet, sinking recognition. Mouth slightly open, body completely still, the stillness of someone processing bad news.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "Shot on Sony A7 with 80mm lens. Cinematic teal-orange color grade — blue-pushed shadows, warm protected skin tones. Real environment, real clutter. Shallow depth of field. Skin pores visible, individual stubble hairs visible. Subject caught mid-thought, NOT posed. Looks like a still from a prestige documentary or drama series.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Square (1:1) 1080x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "posed",
+    "looking at camera"
+  ]
+}

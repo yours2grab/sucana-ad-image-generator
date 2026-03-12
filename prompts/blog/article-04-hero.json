@@ -1,0 +1,57 @@
+{
+  "subject": {
+    "description": "Person from behind, back to camera, facing a clean white wall covered with four printed ad creative mockups pinned side by side. One mockup has a bold hand-drawn red circle around it. The person is close to the wall.",
+    "action": "Standing close to the wall, looking at the mockups. Back fully to camera."
+  },
+  "setting": {
+    "location": "Clean white wall — no windows, no room edges visible. Only the wall fills the background. Four mockups pinned to it, evenly spaced. Real environment, slight wall texture.",
+    "time_of_day": "Soft even indoor light. No window visible in the frame."
+  },
+  "composition": {
+    "camera_angle": "Straight on from behind, tight",
+    "framing": "Close-up. Person from waist up fills the lower foreground, back to camera. Wall and all four mockups fill the upper two-thirds. No windows, no room edges — just person and wall. Tight, editorial."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/2.0",
+    "depth_of_field": "medium shallow — person sharp, wall and mockups slightly soft but readable",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft natural daylight from window left — clean, even, editorial. No harsh shadows.",
+    "color_grading": "Clean, slightly warm neutral — daylight whites, natural skin tones, no heavy grade. Editorial magazine feel."
+  },
+  "mood": "Decisive and analytical. The moment of evaluation — not stressed, focused. The circled mockup suggests a winner has been identified.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Sony A7 IV, 35mm f/2.0. Feels like a still from a brand documentary or editorial shoot. NOT posed, NOT stock, NOT studio, NOT looking at camera.",
+  "ad_format": {
+    "platform": "Blog hero image",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "watermarks",
+    "logos",
+    "cartoon",
+    "CGI",
+    "rendered",
+    "stock photo look",
+    "airbrushed",
+    "smooth skin",
+    "posed",
+    "studio lighting",
+    "perfect framing",
+    "smiling",
+    "looking at camera",
+    "fake expression",
+    "illustration",
+    "3D render",
+    "blurry face",
+    "extra fingers",
+    "bad anatomy",
+    "facing camera",
+    "face visible"
+  ]
+}

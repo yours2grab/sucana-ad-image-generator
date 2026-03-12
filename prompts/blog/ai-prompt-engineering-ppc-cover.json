@@ -1,0 +1,51 @@
+{
+  "subject": {
+    "description": "A male surgeon in his late 30s, wearing full teal surgical scrubs, surgical cap, and a white mask pulled down below his chin. Latex gloves on both hands. Visible stubble on his jaw. Skin pores visible, slight sheen of sweat on his forehead. In his right hand he holds a surgical scalpel pointed downward. In his left hand he holds a single printed sheet of paper with visible rows of numbers and data. His micro expression: jaw set firm, lips slightly parted, brow furrowed with deep focus, eyes locked downward on the table. The look of someone about to make a precise, irreversible cut.",
+    "action": "Standing over an operating table, looking down at the patient, deciding where to cut."
+  },
+  "setting": {
+    "location": "A sterile operating room. On the surgical table instead of a human patient lies a giant cracked-open Google Ads dashboard, split apart like a body cavity. Wires, data streams, and glowing metric numbers spill out of the crack like organs. Campaign names and CPL figures visible on fragments. The dashboard is lit from within with a faint cool blue glow. Surgical instruments are laid out on a steel tray beside the table. A heart rate monitor in the background shows a flat line made of a declining ROAS graph.",
+    "time_of_day": "Timeless, interior, harsh overhead surgical lighting."
+  },
+  "composition": {
+    "camera_angle": "Low angle, shooting slightly upward at the surgeon from the foot of the operating table. Dashboard visible between camera and surgeon.",
+    "framing": "Full medium shot. Top frame: crown of head with headspace and surgical lamp visible above. Bottom frame: hip level, hands and instruments visible. Eyes in upper third. Dashboard takes up the lower third of frame."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Harsh overhead surgical lamp casting a bright pool of white light directly on the dashboard-patient. Secondary fill from the cool blue glow emanating from the cracked dashboard. Subtle teal ambient bounce off the sterile walls.",
+    "color_grading": "Cinematic teal and white. Cool sterile tones dominating, with the warm skin of the surgeon providing contrast. Slight desaturation on the environment, skin tones protected."
+  },
+  "mood": "Precision under pressure. The gravity of making the right decision with the right data. Surgical focus applied to campaign analysis.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Every texture visible: the weave of the scrubs, the powder on the latex gloves, the grain of the printed data sheet. Photojournalistic quality, as if captured by a documentary photographer in a real operating room.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "extra fingers",
+    "blurry face",
+    "stock photo look"
+  ]
+}

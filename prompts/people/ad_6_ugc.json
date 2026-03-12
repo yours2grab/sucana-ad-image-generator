@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "An industry professional wearing a plain t-shirt.",
+        "action": "Sitting in the driver's seat of their car. They are holding the phone with one hand to record themselves, looking directly into the lens with an exasperated expression, ranting about generic AI ads."
+    },
+    "setting": {
+        "location": "The interior of an average, slightly messy car. The windows show a blurred suburban parking lot outside.",
+        "time_of_day": "Midday"
+    },
+    "composition": {
+        "camera_angle": "Front-facing selfie camera angle.",
+        "framing": "Centered selfie framing. MUST follow cropping rules: perfect headspace above the hair, no cut flesh on the holding arm, ample breathing room for the chin."
+    },
+    "camera_settings": {
+        "lens": "iPhone wide lens equivalent (approx 24mm)",
+        "aperture": "f/8.0",
+        "depth_of_field": "Wide depth of field, everything inside the car is relatively in focus."
+    },
+    "lighting": {
+        "type": "Harsh midday sun coming through the windshield.",
+        "color_grading": "Unedited iPhone photo, completely raw and amateur, 0 aesthetic effort."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: professional lighting, aesthetic filters, text, watermarks, deformities, bad anatomy, cut off heads, cut flesh."
+}

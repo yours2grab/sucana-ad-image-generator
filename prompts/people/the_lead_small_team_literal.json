@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "Three realistic marketing team members in everyday casual office wear.",
+        "action": "Huddled closely around a single laptop on a crowded desk. One person points intensely at a spreadsheet on the screen, reflecting real budget pressure."
+    },
+    "setting": {
+        "location": "A cramped, slightly messy startup office with exposed brick and no fancy enterprise decor.",
+        "time_of_day": "Afternoon"
+    },
+    "composition": {
+        "camera_angle": "Eye-level medium shot, slightly angled to include all three people and the laptop.",
+        "framing": "Rule of thirds. MUST follow cropping rules: never cut in flesh, leave safe headspace above all three figures, full upper bodies visible."
+    },
+    "camera_settings": {
+        "lens": "35mm",
+        "aperture": "f/4.0",
+        "depth_of_field": "Medium depth of field, keeping the three subjects in sharp focus while the messy background is slightly blurred."
+    },
+    "lighting": {
+        "type": "Harsh, unpolished fluorescent light mixed with some dim natural light.",
+        "color_grading": "Slightly desaturated, realistic tones, emphasizing exhaustion and tight deadlines."
+    },
+    "aesthetic_style": "RAW photo, authentic unretouched photography, shot on 35mm film, hyper realistic photorealism, actual human beings. DO NOT MAKE IT A CARTOON OR DIGITAL ART.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Square (1:1) 1080x1080"
+    },
+    "negative_prompt": "Things that MUST NOT appear: more than three people, crowds, duplicate identical faces, digital art, illustration, vector art, cartoon, 3D render, CGI, polished enterprise aesthetic, text, watermarks, deformities, bad anatomy."
+}

@@ -1,0 +1,55 @@
+{
+  "subject": {
+    "description": "Late-30s man, mixed ethnicity, slightly disheveled dark hair, wearing a faded navy crew-neck. Sitting at a cluttered desk, one hand hovering over the trackpad, the other braced on the desk edge. Skin pores visible, light stubble.",
+    "action": "Mid-gesture — arm half-raised, caught in the moment just before making a decision. Not posed. Not looking at camera."
+  },
+  "setting": {
+    "location": "Home office or co-working space. Laptop open with a Meta Ads dashboard visible on screen — soft blue glow from the monitor. Background softly blurred: desk clutter, a coffee cup, cables. Real environment.",
+    "time_of_day": "Late afternoon — warm directional light coming from a window off to the left, slightly backlit."
+  },
+  "composition": {
+    "camera_angle": "Slight low angle, eye-level to slightly below — looking up at him just barely",
+    "framing": "Small Medium shot. Top frame: crown with headspace. Bottom frame: below the nipples. Eyes land in upper third. Rule of thirds — subject offset slightly left, screen visible on right."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "subtle — very slight on the raised hand to show mid-motion"
+  },
+  "lighting": {
+    "type": "Natural window light from left — warm afternoon sun. Monitor glow from the laptop adds a cool blue fill from the right. Practical dual-source lighting.",
+    "color_grading": "Cinematic teal-orange — blue-pushed shadows, warm protected skin tones. Shadows cool, highlights amber."
+  },
+  "mood": "The split-second before committing — focused, slightly tense, mid-thought. Not stressed, not relaxed. Locked in.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Sony A7 IV, 80mm f/2.8. Skin pores visible, individual stubble hairs sharp. Feels like a still from a prestige documentary series. NOT posed, NOT stock, NOT studio.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "watermarks",
+    "logos",
+    "cartoon",
+    "CGI",
+    "rendered",
+    "stock photo look",
+    "airbrushed",
+    "smooth skin",
+    "posed",
+    "studio lighting",
+    "perfect framing",
+    "smiling",
+    "looking at camera",
+    "fake expression",
+    "illustration",
+    "3D render",
+    "blurry face",
+    "extra fingers",
+    "bad anatomy"
+  ]
+}

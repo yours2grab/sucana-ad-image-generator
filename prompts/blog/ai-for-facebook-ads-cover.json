@@ -1,0 +1,60 @@
+{
+  "subject": {
+    "description": "A woman in her early 30s, Mediterranean complexion, dark brown hair loosely pulled back, minimal makeup, natural skin texture with visible pores and light freckles across her nose. She wears a simple white linen shirt. Her expression is a genuine, relaxed smile: corners of mouth lifted naturally, slight crow's feet forming at eye corners, upper teeth barely showing, eyes slightly narrowed from the smile. Skin pores visible, individual hair strands visible.",
+    "action": "She is smiling warmly, looking slightly off-camera to the left, as if someone just showed her data that confirmed her instinct was right. A quiet moment of 'I knew it.'"
+  },
+  "setting": {
+    "location": "Bright, airy modern office space. Large windows behind her flooding the scene with natural daylight. Soft white and light blue tones in the background. A laptop screen with colorful graphs is softly blurred in the background. Clean, minimal, uplifting.",
+    "time_of_day": "Late morning, bright natural daylight flooding in."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly angled from the right.",
+    "framing": "Close-up. CRITICAL: Top frame has generous headspace above the crown of her head, at least 15% of frame height above the top of her head. Bottom frame cuts below the collarbone with breathing room. NEVER crop the top of her head. Eyes land in the upper third of the frame. Face fills the center-left of the frame. Background visible on all sides."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Bright natural window light from the left, soft and diffused. Warm tone on her skin. Subtle fill light from the right preventing harsh shadows. High-key, bright, optimistic exposure.",
+    "color_grading": "Bright, warm, clean. Lifted shadows, warm skin tones, soft lavender and pink highlights. High-key, no dark tones anywhere. Vibrant and inviting."
+  },
+  "mood": "Quiet confidence. The feeling of trusting a tool that actually works. Warm, bright, optimistic. Relief and clarity.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Bright, high-key editorial portrait photography. Skin pores visible, individual hair strands visible. Natural and real. NOT a stock photo.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "dark",
+    "moody",
+    "low key",
+    "black background",
+    "fake smile",
+    "stock photo look",
+    "robot",
+    "robotic hand",
+    "robotic arm",
+    "cropped head",
+    "cut off head",
+    "tight crop on head"
+  ]
+}

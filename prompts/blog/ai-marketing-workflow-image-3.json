@@ -1,0 +1,37 @@
+{
+  "subject": {
+    "description": "Early-40s man with close-cropped hair, sharp features, wearing a dark slim-fit jacket over a plain tee. Leaning slightly forward, elbows on table.",
+    "action": "Pointing at a screen with one finger while looking across the table at someone off-frame. Mouth slightly open — mid-sentence, making a point. Eyebrows raised on one side — the 'you see what I mean?' expression. Eyes sharp and direct."
+  },
+  "setting": {
+    "location": "Modern conference room, one large screen on the wall showing a workflow diagram softly blurred. Two other people visible as blurred shapes across the table. Glass water bottle and a notebook visible in foreground.",
+    "time_of_day": "Midday — bright even ambient light, no harsh shadows."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slight high angle from across the table",
+    "framing": "Full medium shot. Crown with headspace at top. Cut at hip. Subject left of center, pointing right toward screen. Never cut in flesh."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Bright even ambient conference room light. No dramatic shadows. Clean and real.",
+    "color_grading": "Cinematic teal-orange grade — neutral midday tones with teal pushed into background shadows. Skin warm and protected."
+  },
+  "mood": "Persuasive clarity — the moment someone explains something they genuinely believe and expects the other person to finally get it.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "Shot on Sony A7 with 80mm lens. Cinematic teal-orange color grade. Real conference room environment. Skin pores visible. Subject caught mid-gesture, mid-sentence, NOT posed. Looks like a still from a prestige documentary or drama series.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (4:3) 1440x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "watermarks", "logos",
+    "cartoon", "illustration", "CGI", "rendered",
+    "stock photo look", "airbrushed", "smooth skin",
+    "posed", "staged", "studio lighting", "perfect framing"
+  ]
+}

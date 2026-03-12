@@ -1,0 +1,12 @@
+{
+  "subject": { "description": "same", "action": "same" },
+  "setting": { "location": "same", "time_of_day": "same" },
+  "composition": { "camera_angle": "same", "framing": "same" },
+  "camera_settings": { "lens": "80mm", "aperture": "f/2.8", "depth_of_field": "shallow", "motion_blur": "none" },
+  "lighting": { "type": "same", "color_grading": "same" },
+  "mood": "same",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "same",
+  "ad_format": { "platform": "Ad image", "ratio_and_resolution": "Feed (4:5) 1080x1350" },
+  "negative_prompt": ["text", "words", "letters", "writing", "signage", "watermarks", "logos", "bad anatomy", "deformities", "extra fingers", "blurry face", "3D render", "cartoon", "illustration", "stock photo look", "overly polished", "fake smile"]
+}

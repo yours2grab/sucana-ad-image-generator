@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "A deep sea diver in a vintage brass and copper diving suit. Full old-school diving helmet with round glass porthole visor reflecting light rays from above. The suit has rivets, patina, and weathered metal texture. Arms relaxed at sides, body completely still and weightless. No visible face, just the helmet visor reflecting the underwater light.",
+    "action": "Floating weightless in clear open water. Suspended mid-depth with no ground or seafloor visible. Body relaxed, arms slightly extended outward. Small air bubbles rising slowly from the helmet joints."
+  },
+  "setting": {
+    "location": "Deep open ocean water. Crystal clear turquoise-blue visibility. Light rays streaming down from the surface above in god-ray patterns. No coral, no fish, no seafloor. Just open water, light, and the diver. Vast empty space in every direction.",
+    "time_of_day": "Midday above the surface, creating strong god-rays penetrating the water column from directly above."
+  },
+  "composition": {
+    "camera_angle": "Full medium shot, eye-level with the diver, shot from slightly below looking upward.",
+    "framing": "Centered composition. Diver in the center of frame. Light rays converging above the diver's helmet. Breathing room on all sides."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Natural underwater caustics. God-rays streaming from the surface. Light refracting through water creating moving patterns on the diver's suit. Teal-blue ambient light from all directions.",
+    "color_grading": "Deep teal-blue underwater tones, warm brass highlights on the helmet from the light rays, high contrast between light rays and deep water."
+  },
+  "mood": "Total calm in what used to be crushing pressure. Weightless peace where stress used to live. Serene control.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}

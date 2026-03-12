@@ -1,0 +1,63 @@
+{
+  "subject": {
+    "description": "South Asian woman, late 20s, natural skin texture with minor blemishes, no visible makeup, dark hair loosely tied back with a few strands falling forward. Wearing a plain oversized olive green crewneck. Slightly tired eyes — not exhausted, just the kind of tired that comes from too many tabs open. Face is unguarded and honest.",
+    "action": "Looking directly into the phone camera propped against a coffee cup on the table in front of her. Expression is flat and knowing — the face of someone who has been promised 'the one AI trick' seventeen times this week and is about to say 'okay, let's actually see it.'"
+  },
+  "setting": {
+    "location": "Busy coffee shop — small round table, ceramic coffee cup, a closed notebook beside it. Blurred people and warm ambient light in the background. Generic café environment, nothing curated.",
+    "time_of_day": "Mid-morning — warm but slightly flat ambient café lighting. No direct sunlight on her face."
+  },
+  "composition": {
+    "camera_angle": "Slightly below eye level — phone propped on table, looking slightly up at her. Feels like the phone is sitting on the table, not held.",
+    "framing": "Medium close-up — head and shoulders plus the top edge of the coffee cup just barely visible at the bottom of frame. Full head in shot with natural headspace. Chin fully visible with breathing room."
+  },
+  "camera_settings": {
+    "lens": "50mm equivalent front-facing phone camera",
+    "aperture": "f/8.0",
+    "depth_of_field": "wide — background café blurred but not dramatically",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Warm ambient café overhead lighting — slightly uneven, practical and unflattering in the best way. No fill, no bounce.",
+    "color_grading": "No color grading. Warm white balance, slight yellow cast from café bulbs. Looks completely unedited."
+  },
+  "mood": "Skeptically open. The energy of someone who has heard the pitch before but is genuinely willing to see if this one is different. Relatable, grounded, not performed.",
+  "authenticity_level": "raw_ugc",
+  "aesthetic_style": "Shot on iPhone front-facing camera propped on a table. Grainy sensor noise visible especially in shadows. Slightly warm overexposure on highlights. No post-processing, no filter. Looks like a raw video still from a Loom or Instagram story.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "8K",
+    "ultra realistic",
+    "hyper realistic",
+    "professional photography",
+    "studio lighting",
+    "ring light",
+    "perfect lighting",
+    "cinematic",
+    "color graded",
+    "airbrushed skin",
+    "smooth skin",
+    "symmetrical",
+    "model",
+    "stock photo",
+    "headshot",
+    "CGI",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "rendered",
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "smile",
+    "posed",
+    "performative expression"
+  ]
+}

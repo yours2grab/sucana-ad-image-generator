@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "An industry professional (founder or media buyer type).",
+        "action": "Standing outdoors, looking directly into the camera lens with a 'we need to talk' expression. They are holding up a smartphone that displays a generic, blurry stock chart."
+    },
+    "setting": {
+        "location": "The street corner of a busy, modern city center like New York or London.",
+        "time_of_day": "Afternoon"
+    },
+    "composition": {
+        "camera_angle": "Eye-level portrait shot.",
+        "framing": "Centered vertical framing. MUST follow cropping rules: perfect headspace above the hair, no cut flesh, ample breathing room for the chin. Frame covers head and shoulders."
+    },
+    "camera_settings": {
+        "lens": "80mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "Low depth of field meaning the city background is mostly blurred out."
+    },
+    "lighting": {
+        "type": "Overcast daylight.",
+        "color_grading": "Realistic, natural tones, documentary film, native-looking UGC."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: text, watermarks, deformities, bad anatomy, artificial lighting, unnatural skin, cut off heads, cut flesh."
+}

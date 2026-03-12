@@ -1,0 +1,51 @@
+{
+  "subject": {
+    "description": "Mid-30s white male, slight stubble, wearing a wrinkled light blue button-down shirt untucked, dark jeans, slightly disheveled hair. Expression: wide eyes, jaw slightly dropped, eyebrows raised — pure bewildered disbelief. Skin texture shows real pores, light stubble hairs individually visible.",
+    "action": "Standing completely still, arms slightly out from his sides in a 'what the hell?' posture, staring directly into the camera lens."
+  },
+  "setting": {
+    "location": "Open office floor surrounded on all sides by towering chrome T-1000 style humanoid robots — liquid metal finish, featureless faces, standing shoulder-to-shoulder in a tight circle around him. Robots are slightly taller than him. Office desks and monitors visible beyond the robot circle.",
+    "time_of_day": "Midday, harsh overhead fluorescent office lighting"
+  },
+  "composition": {
+    "camera_angle": "Eye-level, medium shot",
+    "framing": "Centered. Subject fills center third of frame. Full body from mid-shin up, clear headspace above. Chrome robots frame the left and right edges, slightly blurred. Human face tack sharp."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Harsh overhead fluorescent office lighting with cold blue-white cast. Chrome robot surfaces reflect fluorescent strips creating hard specular highlights.",
+    "color_grading": "Desaturated cool tones, high contrast, slight cyan push on shadows"
+  },
+  "mood": "Bewildered, overwhelmed, frozen in disbelief — the only warm human thing in a cold chrome world",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "4K ultra realistic, hyper realistic photorealism. Skin pores visible. Individual facial hairs visible. Looks exactly like a real photograph taken on set.",
+  "ad_format": {
+    "platform": "Meta Ads",
+    "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+  },
+  "negative_prompt": [
+    "text",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "blurry face",
+    "3D render",
+    "cartoon",
+    "illustration",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "CGI",
+    "rendered",
+    "science fiction movie poster",
+    "concept art",
+    "digital painting"
+  ]
+}

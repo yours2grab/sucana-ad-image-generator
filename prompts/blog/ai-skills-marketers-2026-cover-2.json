@@ -1,0 +1,36 @@
+{
+  "subject": {
+    "description": "Two hands, masculine, mid-50s, visible veins and natural skin texture. Left hand gripping a dense tangled mess of colorful cables, wires, and USB cords knotted together. Right hand holding a single clean white cable, perfectly straight, with a simple connector at the end. The contrast is stark and immediate.",
+    "action": "Holding the tangled mess in one hand and the clean solution in the other, presenting both to the camera."
+  },
+  "setting": {
+    "location": "A minimal white desk surface, completely clean except for the two hands and their contents. Soft white background fading to nothing.",
+    "time_of_day": "Midday"
+  },
+  "composition": {
+    "camera_angle": "Directly overhead, bird's eye view looking straight down at the desk",
+    "framing": "Wide shot of the desk surface. Hands positioned in left and right thirds. Tangled cables fill the left side, clean cable on the right. Generous negative space between them."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft diffused daylight from above, even and clean with minimal shadows. Studio-quality natural light.",
+    "color_grading": "Clean neutral whites with slight cool undertone, high key"
+  },
+  "mood": "Clarity emerging from chaos. The moment of simplification.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered",
+    "stock photo look"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "subject": {
+    "description": "Woman, late 20s, mixed ethnicity, dark wavy hair loosely pulled back, wearing an oversized cream linen button-down shirt and dark wide-leg trousers. Sitting cross-legged on a modern light grey linen sofa. Laptop open beside her on the cushion but she is not touching it. Phone resting on the sofa armrest showing a green notification badge. Skin has natural texture, no makeup polish, individual fine hairs visible. Posture is loose and relaxed, not posed.",
+    "action": "Sitting cross-legged on the sofa, both hands resting lightly in her lap, gaze directed forward and slightly up — not at the screen, not at the phone. The expression: corners of lips very slightly lifted, not a smile, more a quiet knowing. Eyes soft, mid-distance focus. The look of someone whose work just finished itself."
+  },
+  "setting": {
+    "location": "Modern minimal apartment living room with floor-to-ceiling glass windows. Outside: soft city rooftops or tree canopy, slightly out of focus. Interior is clean — white walls, light wood floors, a single pendant lamp off to the right unlit. The laptop screen behind her shoulder glows with a dashboard populating with data rows and a graph line building upward.",
+    "time_of_day": "Early morning, 7am. Soft diffused daylight pouring through the floor-to-ceiling glass. No harsh direct sun — overcast morning quality light, cool and clean."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slightly to her left. She fills the left two-thirds of the frame. Laptop screen visible over her right shoulder in soft background bokeh.",
+    "framing": "Full medium shot. Crown of head with headspace at top. Frame cuts at hip level. Eyes land in upper third. Laptop screen softly visible behind her right shoulder — readable but blurred. Phone on armrest in lower right foreground, slightly out of focus showing green glow."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft diffused morning window light from the floor-to-ceiling glass on the right side of frame. Cool, clean, even. No harsh shadows. Gentle wrap light on her face and shirt.",
+    "color_grading": "Cool morning tones with warm skin protection. Slightly desaturated background, natural skin warmth maintained. Clean and editorial — no teal-orange push. Feels like early morning before the city wakes up."
+  },
+  "mood": "Calm authority. The work ran itself overnight. She already knew it would. There is nothing urgent here — just the quiet confidence of someone who built something that runs without her.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Skin pores and individual hair strands visible. Feels like a still from a prestige documentary series about modern founders. Not a stock photo. Not posed for a camera. Caught in a real moment.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "extra fingers",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "stock photo look",
+    "overly polished",
+    "fake smile",
+    "posed",
+    "looking at camera",
+    "studio lighting",
+    "white background"
+  ]
+}

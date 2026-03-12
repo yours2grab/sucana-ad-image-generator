@@ -1,0 +1,37 @@
+{
+  "subject": {
+    "description": "Late-30s man, slightly disheveled, dark circles under eyes. Rumpled button-down shirt, sleeves rolled to elbows. Three days of stubble. Sitting hunched forward at a cluttered desk.",
+    "action": "Staring across three open screens simultaneously, right hand hovering over a keyboard, left hand holding a cold coffee cup mid-air. Head turned slightly left, eyes scanning tabs. Jaw barely dropped — the half-second of holding three things in mind at once and losing them."
+  },
+  "setting": {
+    "location": "Open-plan office desk covered in printed reports, sticky notes, two open laptops. Third monitor shows a dashboard with red numbers. Two coffee cups visible — one empty, one half-full. Scattered papers, a forgotten pen uncapped.",
+    "time_of_day": "Late afternoon — harsh overhead fluorescent light, no natural light visible."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, slight high angle — camera just above eye-line",
+    "framing": "Small medium shot. Crown with headspace at top. Cut below nipples. Subject slightly left of center, rule of thirds. Never cut in flesh."
+  },
+  "camera_settings": {
+    "lens": "80mm",
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Harsh overhead fluorescent office light, no diffusion, slight shadows under eyes and chin.",
+    "color_grading": "Cinematic teal-orange grade — blue-pushed shadows, warm protected skin tones. Slightly desaturated except skin."
+  },
+  "mood": "Coordination exhaustion — the specific tiredness of someone who has been switching context all day and has nothing to show for it.",
+  "authenticity_level": "documentary",
+  "aesthetic_style": "Shot on Sony A7 with 80mm lens. Cinematic teal-orange color grade — blue-pushed shadows, warm protected skin tones. Real environment. Skin pores visible. Individual stubble hairs visible. Subject caught mid-thought, NOT posed. Looks like a still from a prestige documentary or drama series.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (4:3) 1440x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "watermarks", "logos",
+    "cartoon", "illustration", "CGI", "rendered",
+    "stock photo look", "airbrushed", "smooth skin",
+    "posed", "smiling", "studio lighting", "perfect framing"
+  ]
+}

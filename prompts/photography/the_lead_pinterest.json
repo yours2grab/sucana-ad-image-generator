@@ -1,0 +1,29 @@
+{
+    "subject": {
+        "description": "A stylish, confident female professional wearing a high-end beige cashmere sweater and subtle gold aesthetic jewelry.",
+        "action": "Sitting at a beautiful marble table, looking off-camera in a candid, documentary style. Her hands rest gracefully next to a beautifully styled, minimalist notepad with 'Set & Regret' handwritten on it."
+    },
+    "setting": {
+        "location": "A sophisticated modern office with a marble or rich wood table. A half-empty artisan coffee cup and a closed silver laptop sit in the beautifully blurred foreground.",
+        "time_of_day": "Morning"
+    },
+    "composition": {
+        "camera_angle": "Slightly high angle portrait.",
+        "framing": "Rule of thirds, centered. MUST follow cropping rules: never cut in flesh, leave perfect headspace above her hair, and give her chin ample breathing room."
+    },
+    "camera_settings": {
+        "lens": "80mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "Low depth of field, foreground objects and background are blurred."
+    },
+    "lighting": {
+        "type": "Natural light from a modern office window.",
+        "color_grading": "Warm tones, aesthetic, muted colors, 'quiet confidence' vibe."
+    },
+    "aesthetic_style": "8K ultra realistic, hyper realistic photorealism.",
+    "ad_format": {
+        "platform": "Meta Ads",
+        "ratio_and_resolution": "Vertical (4:5) 1080x1350"
+    },
+    "negative_prompt": "Things that MUST NOT appear in the image: watermarks, deformities, bad anatomy, messy desk, ugly fonts, cartoon, illustration, cut off head, cut flesh, strange framing."
+}

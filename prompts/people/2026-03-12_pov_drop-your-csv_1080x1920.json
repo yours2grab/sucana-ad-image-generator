@@ -1,0 +1,37 @@
+{
+  "subject": {
+    "description": "Two hands on a laptop keyboard. Left hand resting flat, right hand hovering over the trackpad. Visible knuckles, slightly dry skin, a cheap digital watch on the left wrist. No rings. Fingernails slightly too long.",
+    "action": "Frozen mid-scroll on a spreadsheet with 12+ tabs visible at the bottom of the screen. The active tab shows rows of exported campaign data — CTR, CPC, ROAS columns. A CSV file icon visible in the downloads bar. The cursor hovers over the X button on the tab."
+  },
+  "setting": {
+    "location": "Coworking space desk, fluorescent overhead lighting. Laptop on a shared long table. Energy drink can (half-crushed), tangled earbuds, a stack of printed reports with highlighter marks, an open notebook with scribbled numbers. Other empty chairs visible in the periphery. Whiteboard with faded marker writing blurred in the background.",
+    "time_of_day": "Late afternoon, around 6pm. Everyone else has left. Overhead fluorescents still on, natural light fading through windows in the background."
+  },
+  "composition": {
+    "camera_angle": "High angle looking down — first-person perspective, as if the viewer is the person sitting at the desk",
+    "framing": "Tall vertical frame. Laptop screen in the upper third. Hands and keyboard in the middle. Full desk surface visible below — notebook, reports, energy drink, earbuds, all the clutter. Empty chairs and whiteboard visible at the very top edge. No face, no body above wrists."
+  },
+  "camera_settings": {
+    "lens": "28mm equivalent (iPhone wide)",
+    "aperture": "f/1.8",
+    "depth_of_field": "wide",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Flat overhead fluorescent light casting even, unflattering illumination. Laptop screen adding blue glow on the hands and keyboard. Fading daylight from windows behind creating a slight warm backlight. No shadows — everything evenly lit and slightly washed out.",
+    "color_grading": "No color grade. Raw phone white balance — slightly green-yellow cast from fluorescents. No post-processing."
+  },
+  "mood": "Quiet exhaustion — the numb autopilot of someone who has exported this same CSV for the hundredth time and is one click away from never doing it again",
+  "authenticity_level": "raw_ugc",
+  "aesthetic_style": "Shot on iPhone rear camera, wide angle. Looking down at hands, keyboard, phone screen, or desk. First-person perspective — no face visible. Harsh available light, sensor noise, no color grade. Natural white balance. Real environment clutter. Looks like someone snapped a photo of what's in front of them.",
+  "ad_format": {
+    "platform": "Ad image",
+    "ratio_and_resolution": "Story (9:16) 1080x1920"
+  },
+  "text_overlay": {
+    "text": "DROP YOUR CSV.",
+    "placement": "clean_separation",
+    "style": "Large bold white sans-serif text in the upper portion of the frame, above the laptop screen. Clean negative space placement."
+  },
+  "negative_prompt": ["text", "words", "letters", "writing", "signage", "watermarks", "logos", "bad anatomy", "deformities", "extra fingers", "blurry face", "3D render", "cartoon", "illustration", "stock photo look", "overly polished", "fake smile", "8K", "ultra realistic", "professional photography", "studio lighting", "cinematic", "CGI", "rendered", "smooth skin", "airbrushed", "perfect framing", "centered composition", "color graded", "posed"]
+}

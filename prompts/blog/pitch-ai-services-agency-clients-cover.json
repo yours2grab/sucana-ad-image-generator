@@ -1,0 +1,53 @@
+{
+  "subject": {
+    "description": "Two pairs of hands across a table. One pair belongs to a man in his 40s, olive skin, rolled-up white linen sleeves, silver watch visible on left wrist. The other pair belongs to a woman in her 30s, brown skin, minimal gold ring on right hand. Between them, one hand is mid-slide pushing a single brass skeleton key across the wood toward the other. Fingers relaxed, natural, not posed. Skin pores and knuckle creases visible.",
+    "action": "One hand sliding a single brass key across an aged walnut table toward the other person's open palm."
+  },
+  "setting": {
+    "location": "Intimate corner of a dimly lit cafe or private meeting room. Aged walnut table with deep grain visible. Two small white espresso cups with saucers sit off to the sides, slightly out of focus. Blurred warm bokeh in the background suggesting ambient lights and shelving.",
+    "time_of_day": "Late afternoon, warm interior light."
+  },
+  "composition": {
+    "camera_angle": "Slightly elevated, looking down at the table surface at roughly 30 degrees. Hands and key are the clear focal point.",
+    "framing": "Medium close-up. Both pairs of hands visible from wrist to fingertips. Table surface fills the lower two-thirds of frame. Background fills the upper third as soft bokeh. Key sits precisely on the rule-of-thirds intersection point."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft warm window light entering from camera right. Gentle fill from ambient cafe lighting on the left. The brass key catches a slight highlight from the window light.",
+    "color_grading": "Warm amber tones, slightly desaturated. Rich wood tones protected. Shadows pushed slightly cool for contrast. Cinematic warmth without oversaturation."
+  },
+  "mood": "Quiet trust. The stillness of a decisive moment. Two people on the edge of agreement, captured in the gesture of offering something valuable.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5. Every wood grain fiber visible. Brass patina on the key rendered with micro scratches and oxidation. Skin texture authentic with visible pores and fine hairs on forearms.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text",
+    "words",
+    "letters",
+    "numbers",
+    "writing",
+    "signage",
+    "watermarks",
+    "logos",
+    "bad anatomy",
+    "deformities",
+    "cartoon",
+    "illustration",
+    "3D render",
+    "CGI",
+    "rendered",
+    "extra fingers",
+    "blurry face",
+    "stock photo look",
+    "overly polished",
+    "fake smile"
+  ]
+}

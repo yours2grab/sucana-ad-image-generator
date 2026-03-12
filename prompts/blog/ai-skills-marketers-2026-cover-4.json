@@ -1,0 +1,36 @@
+{
+  "subject": {
+    "description": "A single domino standing perfectly upright, painted deep purple with visible paint texture and slight gloss. Behind it, hundreds of white dominoes have fallen in a perfect logarithmic spiral pattern across a massive dark polished boardroom table. The purple domino is the only one still standing. Each fallen white domino is crisp and detailed with visible edges and shadows.",
+    "action": "Standing upright and still while all others have fallen in a sweeping spiral around it."
+  },
+  "setting": {
+    "location": "A large dark corporate boardroom with a massive polished black table stretching into the distance. Empty leather chairs barely visible in the shallow depth of field. Clean, minimal, powerful space.",
+    "time_of_day": "Evening"
+  },
+  "composition": {
+    "camera_angle": "Low angle from table surface level, looking up at the standing purple domino with fallen white dominoes spiraling behind it into soft focus",
+    "framing": "The purple domino occupies the left third of frame, sharp and in focus. The spiral of fallen white dominoes flows from it toward the right and into the background. Shallow depth of field blurs the far end of the table."
+  },
+  "camera_settings": {
+    "lens": "35mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Cool overhead fluorescent ambient light filling the room with a single warm spotlight from above illuminating the purple domino, creating a small pool of golden light on the dark table surface around it.",
+    "color_grading": "High contrast, cool blue-grey room with warm golden accent on the purple domino"
+  },
+  "mood": "The one thing that stood when everything else fell. Quiet defiance.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered",
+    "stock photo look"
+  ]
+}

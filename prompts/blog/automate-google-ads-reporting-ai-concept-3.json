@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "description": "A single vintage red alarm clock with two bells on top, classic round face with black numbers. The clock shows exactly 5:00. The power cord is unplugged and coiled neatly beside the clock on the desk surface. The clock has minor paint chips and scratches showing age and use.",
+    "action": "Sitting still on a clean white desk. Unplugged. Silent. No longer needed."
+  },
+  "setting": {
+    "location": "Minimalist home office. Clean white desk surface with nothing else on it except the clock and its coiled cord. Behind the desk, a large window with sheer white curtains letting in soft morning light. The room is sparse and calm. White walls, no clutter.",
+    "time_of_day": "Early morning. Soft cool daylight filtering through the window, creating gentle shadows on the desk surface."
+  },
+  "composition": {
+    "camera_angle": "Eye-level, centered on the clock. Slightly off-center to the left.",
+    "framing": "Rule of thirds. Clock positioned in the left-center intersection. Window light fills the right third. Clean negative space around the clock."
+  },
+  "camera_settings": {
+    "lens": "50mm",
+    "aperture": "f/4.0",
+    "depth_of_field": "shallow",
+    "motion_blur": "none"
+  },
+  "lighting": {
+    "type": "Soft natural window light from behind and to the right. Cool white daylight. Gentle shadow cast by the clock on the desk surface.",
+    "color_grading": "Cool neutral whites, clean editorial tones, minimal saturation."
+  },
+  "mood": "Quiet freedom. The Monday scramble alarm that no longer rings. Relief without drama.",
+  "authenticity_level": "editorial",
+  "aesthetic_style": "8K ultra realistic, hyper realistic photorealism. Shot on Canon EOS R5.",
+  "ad_format": {
+    "platform": "Blog / Website",
+    "ratio_and_resolution": "Landscape (16:9) 1920x1080"
+  },
+  "negative_prompt": [
+    "text", "words", "letters", "numbers", "writing", "signage", "watermarks", "logos",
+    "bad anatomy", "deformities", "cartoon", "illustration", "3D render", "CGI", "rendered"
+  ]
+}
